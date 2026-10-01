@@ -1,0 +1,40 @@
+{
+  "updated_at": "2026-10-01T17:00:00+09:00",
+  "updates": [
+    {
+      "id": "shigakogen_no_foraging",
+      "action": "add",
+      "name": "志賀高原（一般採取禁止）",
+      "prefecture": "長野県",
+      "municipality": "下高井郡山ノ内町",
+      "category": "採取禁止",
+      "target_species": [
+        "天然キノコ全般"
+      ],
+      "season_months": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "fee_or_permit": "2026年は入山券販売なし",
+      "rule": "志賀高原ビジターセンター公式FAQで、2026年のキノコ一般採取は禁止。山菜・タケノコも一般採取全面禁止で、入山券の販売なし。",
+      "land_rights_note": "一般採取禁止のため採取地点として扱わない。観察のみ。",
+      "coordinates_note": "ピンを置く場合は蓮池のビジターセンター周辺を代表点とする。",
+      "sources": [
+        "https://visitor-center.shigakogen.gr.jp/faq/",
+        "https://visitor-center.shigakogen.gr.jp/about/"
+      ]
+    },
+    {
+      "id": "ikarasawa",
+      "action": "reclassify",
+      "name": "五十沢キャンプ場",
+      "prefecture": "新潟県",
+      "from_category": "許可・券が必要",
+      "to_category": "発生記録のみ／採取可否未確認",
+      "reason": "観光協会の『秋のきのこ採り』案内だけでは、自家消費目的の一般採取権・持ち帰り可能区域・量を確認できないため。",
+      "source": "https://m-uonuma.jp/visit/%E4%BA%94%E5%8D%81%E6%B2%A2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97%E5%A0%B4/"
+    }
+  ]
+}
