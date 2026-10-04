@@ -1,0 +1,82 @@
+/* Keep every Leaflet pane inside the map's own stacking context. */
+:root { --app-height:100vh; --sheet-space:56%; --sidebar-space:418px; }
+@supports(height:100dvh) { :root { --app-height:100dvh; } }
+html,body { width:100%; height:100%; overflow:hidden; }
+body { position:relative; }
+#map,#fallback { position:fixed; inset:0 0 0 var(--sidebar-space); z-index:0; isolation:isolate; }
+.shell { z-index:10; height:var(--app-height); bottom:auto; }
+.panel { z-index:2; min-height:0; }
+.head,.rowbar { flex-shrink:0; }
+.list { flex:1 1 0; min-height:0; overscroll-behavior:contain; -webkit-overflow-scrolling:touch; }
+.card { cursor:pointer; overflow-wrap:anywhere; }
+.card:focus-visible,button:focus-visible,a:focus-visible,input:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+.search input { font-size:16px; min-width:0; }
+.chips { touch-action:pan-x; }
+.chip { min-height:40px; }
+.fav { flex:0 0 44px; width:44px; height:44px; padding:0; }
+.tools { z-index:1; }
+.legend { z-index:1; }
+.leaflet-top.leaflet-right { top:66px; right:4px; }
+.detail { z-index:5; max-height:calc(var(--app-height) - 100px); overscroll-behavior:contain; }
+.close { position:sticky; float:right; top:0; right:auto; z-index:2; width:44px; height:44px; margin:-7px -7px 0 0; background:#213a2b; font-size:24px; }
+.detail h2 { overflow-wrap:anywhere; }
+.detail .box { min-width:0; overflow-wrap:anywhere; }
+.detail .legal { font-size:13px; }
+.detail .note { font-size:12px; }
+.detail .links a { min-height:40px; display:inline-flex; align-items:center; }
+#viewToggle { display:none; }
+.rowbar { gap:8px; }
+.rowbar button { min-height:40px; }
+#count { white-space:nowrap; }
+.empty-state { color:var(--muted); padding:24px 14px; line-height:1.8; font-size:13px; }
+.empty-state button { display:block; margin:12px 0; padding:10px 16px; border:1px solid var(--line); border-radius:12px; background:var(--panel2); color:var(--text); }
+#map-status { pointer-events:none; position:absolute; top:80px; right:60px; max-width:270px; margin-left:12px; border:1px solid var(--line); padding:10px 14px; border-radius:12px; background:#07110df5; color:var(--text); z-index:1; font-size:12px; line-height:1.6; }
+#map-status:empty { display:none; }
+#fallback:before { display:none; }
+#fallback .fmark { display:none; }
+#ui-toast { pointer-events:none; position:fixed; top:16px; left:50%; transform:translateX(-50%); z-index:30; background:#d6ff5b; color:#07110d; padding:10px 16px; border-radius:12px; max-width:90vw; font-size:13px; }
+#ui-toast:empty { display:none; }
+@media(max-width:760px) {
+  :root { --sidebar-space:0px; --sheet-space:56%; }
+  #map,#fallback { inset:0 0 var(--sheet-space) 0; height:auto; }
+  .panel { top:auto; bottom:0; left:0; right:0; height:56%; min-height:min(370px,calc(var(--app-height) - 140px)); width:auto; border-radius:22px 22px 0 0; padding-bottom:env(safe-area-inset-bottom,0px); }
+  .head { padding:12px 14px 4px; }
+  .brand { font-size:11px; line-height:1.5; }
+  .brand small { font-size:10px; }
+  h1 { font-size:20px; margin:6px 0; line-height:1.2; }
+  .search { margin-top:7px; }
+  .search input { height:44px; font-size:16px; }
+  .chips { padding-top:8px; padding-bottom:4px; }
+  .chip { padding:9px 12px; font-size:12px; min-height:40px; }
+  .rowbar { padding:0 12px; font-size:11px; }
+  #viewToggle { display:inline-block; white-space:nowrap; color:var(--accent); font-weight:700; }
+  #sort { margin-left:auto; font-size:11px; padding:0 2px; }
+  .list { display:block; overflow-x:hidden; overflow-y:auto; padding:8px 10px 16px; }
+  .card { min-width:0; width:100%; height:auto; margin:0 0 9px; padding:13px; }
+  .card h3 { font-size:15px; line-height:1.4; }
+  .badge { font-size:10px; line-height:1.5; }
+  .pref,.meta { font-size:11px; }
+  .fungi { font-size:12px; }
+  .tools { top:max(10px,env(safe-area-inset-top)); right:10px; }
+  .tool { width:44px; height:44px; }
+  .legend { top:max(10px,env(safe-area-inset-top)); left:10px; right:114px; bottom:auto; max-width:215px; gap:5px 10px; font-size:9px; }
+  .detail { position:fixed; top:auto; bottom:10px; left:10px; right:10px; width:auto; max-height:calc(var(--app-height) - 24px); padding-bottom:max(18px,env(safe-area-inset-bottom)); }
+  .shell.list-expanded .panel { top:0; bottom:0; height:100%; min-height:0; border-radius:0; padding-top:env(safe-area-inset-top,0px); }
+  .shell.list-expanded .legend,.shell.list-expanded .tools,.shell.list-expanded #map-status { visibility:hidden; }
+  #map-status { top:72px; left:12px; right:62px; max-width:none; margin:0; }
+}
+@media(max-width:760px) and (max-height:500px) {
+  .panel { height:72%; min-height:0; }
+  h1,.brand small { display:none; }
+  .head { padding-top:6px; }
+  .chips { padding-top:4px; }
+  .brand { font-size:10px; }
+  .rowbar button { min-height:36px; }
+}
+@media(min-width:761px) and (max-width:1000px) {
+  :root { --sidebar-space:360px; }
+  .panel { width:332px; }
+  h1 { font-size:22px; }
+}
+@media(prefers-reduced-motion:reduce) { .detail { transition:none; } }
+@media(max-width:760px) { #map,#fallback { bottom:auto; height:calc(var(--app-height) - var(--sheet-space)); } }

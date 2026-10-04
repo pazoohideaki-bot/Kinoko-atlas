@@ -20,15 +20,35 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Build verified static site
+        run: python3 scripts/build.py
+      - name: Install browser checks
+        run: |
+          python3 -m pip install playwright==1.55.0
+          python3 -m playwright install --with-deps chromium webkit
+      - name: Verify mobile and desktop before publishing
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/kinoko-http.log 2>&1 &
+          python3 tests/ui_smoke.py --url http://127.0.0.1:8765/dist/ --baseline http://127.0.0.1:8765/ --out checks/local
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "."
+          path: dist
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify public page
+        run: python3 tests/ui_smoke.py --url "${{ steps.deployment.outputs.page_url }}?ui=20261004-ui2" --out checks/public
+      - name: Save browser evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ui-browser-evidence
+          path: checks
+          retention-days: 7
