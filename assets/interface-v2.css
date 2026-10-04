@@ -90,3 +90,6 @@ body { position:relative; }
   .rowbar { padding:0 12px; }
   .rowbar button { min-height:36px; }
 }
+
+/* Avoid transient invisible hit targets while opening a place detail. */
+.detail { transition:none; }

@@ -139,7 +139,9 @@
     }, { enableHighAccuracy: false, timeout: 7000, maximumAge: 60000 });
   };
   if (fallback || !map) {
-    document.querySelector('#fallback').replaceChildren();
+    // The base renderer calls this after every filter change: never recreate fake pins.
+    renderFallback = function () { document.querySelector('#fallback').replaceChildren(); };
+    renderFallback();
     notice.textContent = '地図を読み込めません。一覧・検索・詳細はそのまま使えます。';
   } else {
     map.eachLayer(layer => {
