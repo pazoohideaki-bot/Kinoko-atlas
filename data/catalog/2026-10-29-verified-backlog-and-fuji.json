@@ -27,7 +27,7 @@
       ],
       "fee": "松川町民のみ4,000円／人・1シーズン。高校生以下は家族同伴に限り無料。同行者も各自許可証が必要",
       "legal": "2026年9月1日～11月14日、生田地区町有林の許可対象区域のみ。町外者のきのこ採取目的の入山は禁止。町民本人が身分証と代金を持参し、飯伊森林組合松川支所（松川町役場地下1階）で平日8:30～17:00に手続き。車両2台まで登録。区域・所有権に関わる詳細を現地で確認すること。",
-      "note": "町公式の制度説明。券を買えば誰でも入れる場所ではない。町が公開した期間・対象者・料金を収録し、発生種や植生・標高は未検証。記事本文は令和8年の曜日・期間を記載する一方、ページ更新日が2025-08-19表示のため、実地訪問前に当年運用確認が必要。",
+      "note": "町公式の制度説明。券を買えば誰でも入れる場所ではない。町が公開した期間・対象者・料金を収録し、発生種や植生・標高は未検証。記事本文は令和8年の曜日・期間を記載する一方、ページ更新日が2025-08-19表示のため、実地訪問前に当年運用確認が必要。【重要】地図の月フィルターに使う9〜11月は鑑札有効期間であり、菌類の確認・発生期間ではない。",
       "record_dates": [
         "2026-09-01",
         "2026-11-14"
@@ -45,7 +45,8 @@
           "松川町・無断入山の注意",
           "https://www.town.matsukawa.lg.jp/soshikikarasagasu/sangyokankoka/norinkakari/1_1/9901.html"
         ]
-      ]
+      ],
+      "months_basis": "2026年度鑑札の有効月。キノコの発生を現地確認した月ではない。"
     },
     {
       "id": "omachi_shogenji_202609",
@@ -93,7 +94,8 @@
         "source_updated_at": "2026-10-15",
         "collection_and_consumption_advisory": false,
         "individual_safety_guaranteed": false
-      }
+      },
+      "months_basis": "公表資料に記載された現地観察月または検体採取月。"
     },
     {
       "id": "nagano_chichitake_202608",
@@ -140,7 +142,8 @@
         "source_updated_at": "2026-10-15",
         "collection_and_consumption_advisory": false,
         "individual_safety_guaranteed": false
-      }
+      },
+      "months_basis": "公表資料に記載された現地観察月または検体採取月。"
     },
     {
       "id": "saku_matsutake_202609",
@@ -187,7 +190,8 @@
         "source_updated_at": "2026-10-15",
         "collection_and_consumption_advisory": false,
         "individual_safety_guaranteed": false
-      }
+      },
+      "months_basis": "公表資料に記載された現地観察月または検体採取月。"
     },
     {
       "id": "sakuho_matsutake_202607_09",
@@ -236,7 +240,8 @@
         "source_updated_at": "2026-10-15",
         "collection_and_consumption_advisory": false,
         "individual_safety_guaranteed": false
-      }
+      },
+      "months_basis": "公表資料に記載された現地観察月または検体採取月。"
     },
     {
       "id": "minamimaki_hanaiguchi_20261009",
@@ -283,7 +288,8 @@
         "source_updated_at": "2026-10-15",
         "collection_and_consumption_advisory": true,
         "individual_safety_guaranteed": false
-      }
+      },
+      "months_basis": "公表資料に記載された現地観察月または検体採取月。"
     },
     {
       "id": "nagano_hanaiguchi_20261008",
@@ -330,7 +336,8 @@
         "source_updated_at": "2026-10-15",
         "collection_and_consumption_advisory": false,
         "individual_safety_guaranteed": false
-      }
+      },
+      "months_basis": "公表資料に記載された現地観察月または検体採取月。"
     },
     {
       "id": "shinanomachi_hanaiguchi_20261008",
@@ -377,7 +384,8 @@
         "source_updated_at": "2026-10-15",
         "collection_and_consumption_advisory": false,
         "individual_safety_guaranteed": false
-      }
+      },
+      "months_basis": "公表資料に記載された現地観察月または検体採取月。"
     },
     {
       "id": "naganuma_hiratake_20261017",
@@ -418,7 +426,8 @@
           "都立長沼公園・2026年観察会案内",
           "https://www.tokyo-park.or.jp/park/naganuma/news/2026/park_info_32.html"
         ]
-      ]
+      ],
+      "months_basis": "公表資料に記載された現地観察月または検体採取月。"
     },
     {
       "id": "aga_ooichoutake_20260914",
@@ -461,7 +470,8 @@
         "source_updated_at": "2026-10-19",
         "test_result": "不検出・合計<5.0 Bq/kg",
         "individual_safety_guaranteed": false
-      }
+      },
+      "months_basis": "検査を行った月。個体採取月とは区別。"
     },
     {
       "id": "myoko_naratake_20260928",
@@ -504,7 +514,8 @@
         "source_updated_at": "2026-10-19",
         "test_result": "不検出・合計<5.6 Bq/kg",
         "individual_safety_guaranteed": false
-      }
+      },
+      "months_basis": "検査を行った月。個体採取月とは区別。"
     },
     {
       "id": "sado_momitake_20260929",
@@ -547,7 +558,8 @@
         "source_updated_at": "2026-10-19",
         "test_result": "不検出・合計<5.7 Bq/kg",
         "individual_safety_guaranteed": false
-      }
+      },
+      "months_basis": "検査を行った月。個体採取月とは区別。"
     },
     {
       "id": "minamiuonuma_naratake_20261015",
@@ -590,7 +602,8 @@
         "source_updated_at": "2026-10-19",
         "test_result": "不検出・合計<6.8 Bq/kg",
         "individual_safety_guaranteed": false
-      }
+      },
+      "months_basis": "検査を行った月。個体採取月とは区別。"
     },
     {
       "id": "itoigawa_naratake_20261015",
@@ -633,7 +646,8 @@
         "source_updated_at": "2026-10-19",
         "test_result": "不検出・合計<7.1 Bq/kg",
         "individual_safety_guaranteed": false
-      }
+      },
+      "months_basis": "検査を行った月。個体採取月とは区別。"
     },
     {
       "id": "uonuma_naratake_20261019",
@@ -676,7 +690,8 @@
         "source_updated_at": "2026-10-19",
         "test_result": "不検出・合計<7.1 Bq/kg",
         "individual_safety_guaranteed": false
-      }
+      },
+      "months_basis": "検査を行った月。個体採取月とは区別。"
     },
     {
       "id": "kitakata_matsutake_nondestructive_20261014",
@@ -720,7 +735,8 @@
         "screening_outcome": "3不合格・3合格",
         "not_direct_bq_value": true,
         "individual_safety_guaranteed": false
-      }
+      },
+      "months_basis": "検査を行った月。個体採取月とは区別。"
     },
     {
       "id": "iwaki_matsutake_nondestructive_20261014",
@@ -764,7 +780,8 @@
         "screening_outcome": "7不合格",
         "not_direct_bq_value": true,
         "individual_safety_guaranteed": false
-      }
+      },
+      "months_basis": "検査を行った月。個体採取月とは区別。"
     },
     {
       "id": "fujikawaguchiko_matsutake_20260929",
@@ -813,7 +830,8 @@
         "collection_and_consumption_advisory": true,
         "cs_total_bq_kg_as_reported": "42",
         "individual_safety_guaranteed": false
-      }
+      },
+      "months_basis": "検査結果判明月。採取月・採集日は未公表。"
     },
     {
       "id": "hayakawa_shakashimeji_20261007",
@@ -856,7 +874,8 @@
         "source_updated_at": "2026-10-14",
         "test_result": "合計不検出<8.4 Bq/kg",
         "individual_safety_guaranteed": false
-      }
+      },
+      "months_basis": "検査結果判明月。採取月・採集日は未公表。"
     }
   ]
 }
