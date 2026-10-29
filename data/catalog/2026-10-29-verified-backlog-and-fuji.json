@@ -1,0 +1,862 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-29",
+  "scope": "2026-10-15/22 pending verified primary sources plus 2026-10-29 incremental Yamanashi records; all pins representative and not a collection site",
+  "places": [
+    {
+      "id": "matsukawa_ikuta_licensed_2026",
+      "name": "松川町・生田地区町有林【町民限定鑑札】",
+      "pref": "長野県 下伊那郡松川町",
+      "lat": 35.6,
+      "lng": 137.91,
+      "status": "yellow",
+      "statusLabel": "鑑札必要／松川町民限定（町外者不可）",
+      "precision": "松川町・生田地区の概略代表点。鑑札対象の林班・筆界・駐車場所は表示していない",
+      "score": 78,
+      "fungi": [
+        "きのこ類（個別対象種は公式掲載なし）"
+      ],
+      "tags": [
+        "mountain",
+        "licensed"
+      ],
+      "months": [
+        9,
+        10,
+        11
+      ],
+      "fee": "松川町民のみ4,000円／人・1シーズン。高校生以下は家族同伴に限り無料。同行者も各自許可証が必要",
+      "legal": "2026年9月1日～11月14日、生田地区町有林の許可対象区域のみ。町外者のきのこ採取目的の入山は禁止。町民本人が身分証と代金を持参し、飯伊森林組合松川支所（松川町役場地下1階）で平日8:30～17:00に手続き。車両2台まで登録。区域・所有権に関わる詳細を現地で確認すること。",
+      "note": "町公式の制度説明。券を買えば誰でも入れる場所ではない。町が公開した期間・対象者・料金を収録し、発生種や植生・標高は未検証。記事本文は令和8年の曜日・期間を記載する一方、ページ更新日が2025-08-19表示のため、実地訪問前に当年運用確認が必要。",
+      "record_dates": [
+        "2026-09-01",
+        "2026-11-14"
+      ],
+      "record_date_basis": "公式に定められた2026年度採取可能期間（発生確認日ではない）",
+      "record_kind": "町有林の茸山鑑札制度案内",
+      "coordinate_role": "town_representative_not_permitted_parcel",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "松川町・2026年生田地区鑑札制度",
+          "https://www.town.matsukawa.lg.jp/soshikikarasagasu/sangyokankoka/norinkakari/1_1/1646.html"
+        ],
+        [
+          "松川町・無断入山の注意",
+          "https://www.town.matsukawa.lg.jp/soshikikarasagasu/sangyokankoka/norinkakari/1_1/9901.html"
+        ]
+      ]
+    },
+    {
+      "id": "omachi_shogenji_202609",
+      "name": "大町市・ショウゲンジ検査【市域】",
+      "pref": "長野県 大町市",
+      "lat": 36.5,
+      "lng": 137.85,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "市町村域の概略代表点。実際の採取地点・発生地点ではない",
+      "score": 48,
+      "fungi": [
+        "ショウゲンジ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record"
+      ],
+      "months": [
+        9
+      ],
+      "fee": "一般の採取権・入山券・鑑札条件は未確認",
+      "legal": "検査対象の市町村の発生記録。一般の採取権は未確認。県の市町村別出荷制限・自粛は別途確認が必要。",
+      "note": "2026-09-25公表は不検出（各核種の検出限界値あり）、2026-10-05公表は合計24 Bq/kg。いずれも検査対象の採取日。 本記録を採取可能地や食用安全性の証明とみなさない。",
+      "record_dates": [
+        "2026-09-15",
+        "2026-09-24"
+      ],
+      "record_date_basis": "公表検査の検体採取日",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_representative_not_collection_site",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "長野県・令和8年度の野生きのこ検査",
+          "https://www.pref.nagano.lg.jp/ringyo/kurashi/shobo/genshiryoku/hoshasen/hoshase/r8kinoko.html"
+        ],
+        [
+          "長野県・市町村別出荷制限と自粛情報",
+          "https://www.pref.nagano.lg.jp/ringyo/kurashi/shobo/genshiryoku/hoshasen/hoshase/kennaisankinoko.html"
+        ]
+      ],
+      "radiation": {
+        "authority": "長野県",
+        "source_updated_at": "2026-10-15",
+        "collection_and_consumption_advisory": false,
+        "individual_safety_guaranteed": false
+      }
+    },
+    {
+      "id": "nagano_chichitake_202608",
+      "name": "長野市・チチタケ検査【市域】",
+      "pref": "長野県 長野市",
+      "lat": 36.65,
+      "lng": 138.19,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "市町村域の概略代表点。実際の採取地点・発生地点ではない",
+      "score": 48,
+      "fungi": [
+        "チチタケ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record"
+      ],
+      "months": [
+        8
+      ],
+      "fee": "一般の採取権・入山券・鑑札条件は未確認",
+      "legal": "検査対象の市町村の発生記録。一般の採取権は未確認。県の市町村別出荷制限・自粛は別途確認が必要。",
+      "note": "2026-08-06採取、8月25日公表。Cs137=86.1、合計86 Bq/kg。市域・具体的な林・標高・植生は未公表。 本記録を採取可能地や食用安全性の証明とみなさない。",
+      "record_dates": [
+        "2026-08-06"
+      ],
+      "record_date_basis": "公表検査の検体採取日",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_representative_not_collection_site",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "長野県・令和8年度の野生きのこ検査",
+          "https://www.pref.nagano.lg.jp/ringyo/kurashi/shobo/genshiryoku/hoshasen/hoshase/r8kinoko.html"
+        ],
+        [
+          "長野県・市町村別出荷制限と自粛情報",
+          "https://www.pref.nagano.lg.jp/ringyo/kurashi/shobo/genshiryoku/hoshasen/hoshase/kennaisankinoko.html"
+        ]
+      ],
+      "radiation": {
+        "authority": "長野県",
+        "source_updated_at": "2026-10-15",
+        "collection_and_consumption_advisory": false,
+        "individual_safety_guaranteed": false
+      }
+    },
+    {
+      "id": "saku_matsutake_202609",
+      "name": "佐久市・マツタケ検査【市域】",
+      "pref": "長野県 佐久市",
+      "lat": 36.25,
+      "lng": 138.48,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "市町村域の概略代表点。実際の採取地点・発生地点ではない",
+      "score": 48,
+      "fungi": [
+        "マツタケ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record"
+      ],
+      "months": [
+        9
+      ],
+      "fee": "一般の採取権・入山券・鑑札条件は未確認",
+      "legal": "検査対象の市町村の発生記録。一般の採取権は未確認。県の市町村別出荷制限・自粛は別途確認が必要。",
+      "note": "2026-09-24採取、10月2日公表。Cs137=13.4、合計13 Bq/kg。佐久市は野生きのこの出荷制限区域だが、マツタケは例外対象。これも土地の採取権を与えない。 本記録を採取可能地や食用安全性の証明とみなさない。",
+      "record_dates": [
+        "2026-09-24"
+      ],
+      "record_date_basis": "公表検査の検体採取日",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_representative_not_collection_site",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "長野県・令和8年度の野生きのこ検査",
+          "https://www.pref.nagano.lg.jp/ringyo/kurashi/shobo/genshiryoku/hoshasen/hoshase/r8kinoko.html"
+        ],
+        [
+          "長野県・市町村別出荷制限と自粛情報",
+          "https://www.pref.nagano.lg.jp/ringyo/kurashi/shobo/genshiryoku/hoshasen/hoshase/kennaisankinoko.html"
+        ]
+      ],
+      "radiation": {
+        "authority": "長野県",
+        "source_updated_at": "2026-10-15",
+        "collection_and_consumption_advisory": false,
+        "individual_safety_guaranteed": false
+      }
+    },
+    {
+      "id": "sakuho_matsutake_202607_09",
+      "name": "佐久穂町・マツタケ検査【町域】",
+      "pref": "長野県 南佐久郡佐久穂町",
+      "lat": 36.16,
+      "lng": 138.49,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "市町村域の概略代表点。実際の採取地点・発生地点ではない",
+      "score": 48,
+      "fungi": [
+        "マツタケ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record"
+      ],
+      "months": [
+        7,
+        9
+      ],
+      "fee": "一般の採取権・入山券・鑑札条件は未確認",
+      "legal": "検査対象の市町村の発生記録。一般の採取権は未確認。県の市町村別出荷制限・自粛は別途確認が必要。",
+      "note": "2026-07-20採取の1検体、9月3日採取の2検体は、いずれも放射性セシウム不検出（個別検出限界値あり）。町内のマツタケは県出荷制限の例外だが所有者の採取権とは別。 本記録を採取可能地や食用安全性の証明とみなさない。",
+      "record_dates": [
+        "2026-07-20",
+        "2026-09-03"
+      ],
+      "record_date_basis": "公表検査の検体採取日",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_representative_not_collection_site",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "長野県・令和8年度の野生きのこ検査",
+          "https://www.pref.nagano.lg.jp/ringyo/kurashi/shobo/genshiryoku/hoshasen/hoshase/r8kinoko.html"
+        ],
+        [
+          "長野県・市町村別出荷制限と自粛情報",
+          "https://www.pref.nagano.lg.jp/ringyo/kurashi/shobo/genshiryoku/hoshasen/hoshase/kennaisankinoko.html"
+        ]
+      ],
+      "radiation": {
+        "authority": "長野県",
+        "source_updated_at": "2026-10-15",
+        "collection_and_consumption_advisory": false,
+        "individual_safety_guaranteed": false
+      }
+    },
+    {
+      "id": "minamimaki_hanaiguchi_20261009",
+      "name": "南牧村・ハナイグチ検査【村域】",
+      "pref": "長野県 南佐久郡南牧村",
+      "lat": 35.97,
+      "lng": 138.48,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "市町村域の概略代表点。実際の採取地点・発生地点ではない",
+      "score": 48,
+      "fungi": [
+        "ハナイグチ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record"
+      ],
+      "months": [
+        10
+      ],
+      "fee": "一般の採取権・入山券・鑑札条件は未確認",
+      "legal": "南牧村はマツタケ以外の野生きのこの出荷制限・採取と摂取の自粛対象。土地の採取権も未確認。",
+      "note": "2026-10-09採取、10月15日公表。Cs137=18.9、合計19 Bq/kg。南牧村のマツタケ以外の野生きのこについては出荷制限と採取・摂取自粛が継続。 本記録を採取可能地や食用安全性の証明とみなさない。",
+      "record_dates": [
+        "2026-10-09"
+      ],
+      "record_date_basis": "公表検査の検体採取日",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_representative_not_collection_site",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "長野県・令和8年度の野生きのこ検査",
+          "https://www.pref.nagano.lg.jp/ringyo/kurashi/shobo/genshiryoku/hoshasen/hoshase/r8kinoko.html"
+        ],
+        [
+          "長野県・市町村別出荷制限と自粛情報",
+          "https://www.pref.nagano.lg.jp/ringyo/kurashi/shobo/genshiryoku/hoshasen/hoshase/kennaisankinoko.html"
+        ]
+      ],
+      "radiation": {
+        "authority": "長野県",
+        "source_updated_at": "2026-10-15",
+        "collection_and_consumption_advisory": true,
+        "individual_safety_guaranteed": false
+      }
+    },
+    {
+      "id": "nagano_hanaiguchi_20261008",
+      "name": "長野市・ハナイグチ検査【市域】",
+      "pref": "長野県 長野市",
+      "lat": 36.65,
+      "lng": 138.19,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "市町村域の概略代表点。実際の採取地点・発生地点ではない",
+      "score": 48,
+      "fungi": [
+        "ハナイグチ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record"
+      ],
+      "months": [
+        10
+      ],
+      "fee": "一般の採取権・入山券・鑑札条件は未確認",
+      "legal": "検査対象の市町村の発生記録。一般の採取権は未確認。県の市町村別出荷制限・自粛は別途確認が必要。",
+      "note": "2026-10-08採取、10月15日公表。Cs137=6.40、合計6.4 Bq/kg。採取林、林相、標高、現物の食用判定は未確認。 本記録を採取可能地や食用安全性の証明とみなさない。",
+      "record_dates": [
+        "2026-10-08"
+      ],
+      "record_date_basis": "公表検査の検体採取日",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_representative_not_collection_site",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "長野県・令和8年度の野生きのこ検査",
+          "https://www.pref.nagano.lg.jp/ringyo/kurashi/shobo/genshiryoku/hoshasen/hoshase/r8kinoko.html"
+        ],
+        [
+          "長野県・市町村別出荷制限と自粛情報",
+          "https://www.pref.nagano.lg.jp/ringyo/kurashi/shobo/genshiryoku/hoshasen/hoshase/kennaisankinoko.html"
+        ]
+      ],
+      "radiation": {
+        "authority": "長野県",
+        "source_updated_at": "2026-10-15",
+        "collection_and_consumption_advisory": false,
+        "individual_safety_guaranteed": false
+      }
+    },
+    {
+      "id": "shinanomachi_hanaiguchi_20261008",
+      "name": "信濃町・ハナイグチ検査【町域】",
+      "pref": "長野県 上水内郡信濃町",
+      "lat": 36.81,
+      "lng": 138.2,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "市町村域の概略代表点。実際の採取地点・発生地点ではない",
+      "score": 48,
+      "fungi": [
+        "ハナイグチ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record"
+      ],
+      "months": [
+        10
+      ],
+      "fee": "一般の採取権・入山券・鑑札条件は未確認",
+      "legal": "検査対象の市町村の発生記録。一般の採取権は未確認。県の市町村別出荷制限・自粛は別途確認が必要。",
+      "note": "2026-10-08採取、10月15日公表。Cs137=4.86、合計4.9 Bq/kg。町域レベルの検査記録。 本記録を採取可能地や食用安全性の証明とみなさない。",
+      "record_dates": [
+        "2026-10-08"
+      ],
+      "record_date_basis": "公表検査の検体採取日",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_representative_not_collection_site",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "長野県・令和8年度の野生きのこ検査",
+          "https://www.pref.nagano.lg.jp/ringyo/kurashi/shobo/genshiryoku/hoshasen/hoshase/r8kinoko.html"
+        ],
+        [
+          "長野県・市町村別出荷制限と自粛情報",
+          "https://www.pref.nagano.lg.jp/ringyo/kurashi/shobo/genshiryoku/hoshasen/hoshase/kennaisankinoko.html"
+        ]
+      ],
+      "radiation": {
+        "authority": "長野県",
+        "source_updated_at": "2026-10-15",
+        "collection_and_consumption_advisory": false,
+        "individual_safety_guaranteed": false
+      }
+    },
+    {
+      "id": "naganuma_hiratake_20261017",
+      "name": "長沼公園・ヒラタケ観察（2026年10月17日）",
+      "pref": "東京都 八王子市（多摩丘陵）",
+      "lat": 35.64,
+      "lng": 139.37,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "長沼公園全体の概略代表点。特定個体・倒木の座標ではない",
+      "score": 68,
+      "fungi": [
+        "ヒラタケ"
+      ],
+      "tags": [
+        "urban",
+        "occurrence"
+      ],
+      "months": [
+        10
+      ],
+      "fee": "観察会参加費と一般採取権は無関係。採取許可未確認",
+      "legal": "主催団体による観察記録であり、一般客の採集・持ち帰りを許可するものではない。公園管理者の規則を要確認。",
+      "note": "2026-10-17にNPO東京生物多様性センターが観察。クヌギ・コナラ主体の雑木林、沢と尾根のある丘陵、公園全体の標高約90〜190m。記録されたヒラタケには白い粒状の病変が報告され、食用には推奨できない。種ごとの発生樹と具体地点は未公表。記事掲載2026-10-19。",
+      "record_dates": [
+        "2026-10-17"
+      ],
+      "record_date_basis": "公表検査の検体採取日",
+      "record_kind": "主催NPOの現地観察報告",
+      "coordinate_role": "park_representative_not_fruiting_tree",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "NPO東京生物多様性センター・2026年10月17日の現地報告",
+          "https://tokyobio.jp/2026/10/19/kinoko-kansatsukai-report-20261017/"
+        ],
+        [
+          "都立長沼公園・2026年観察会案内",
+          "https://www.tokyo-park.or.jp/park/naganuma/news/2026/park_info_32.html"
+        ]
+      ]
+    },
+    {
+      "id": "aga_ooichoutake_20260914",
+      "name": "阿賀町・オオイチョウタケ検査【市町域】",
+      "pref": "新潟県 東蒲原郡阿賀町",
+      "lat": 37.67,
+      "lng": 139.44,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "市町村域の概略代表点。実際の採取地点・発生地点ではない",
+      "score": 48,
+      "fungi": [
+        "オオイチョウタケ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record"
+      ],
+      "months": [
+        9
+      ],
+      "fee": "一般の採取権・入山券・鑑札条件は未確認",
+      "legal": "公的な検査記録であり、一般の人の入山・採取・持ち帰りを許可する資料ではありません。所有者や採取権者の確認が必要です。",
+      "note": "新潟県の2026年度野生きのこ検査、検査日2026-09-14。オオイチョウタケの放射性セシウム合計は不検出（<5.0 Bq/kg：検出限界未満）。ゼロという意味ではない。採取日は別記されておらず、具体的な林・標高・植生・採取権も未確認。",
+      "record_dates": [
+        "2026-09-14"
+      ],
+      "record_date_basis": "県公式表の検査日（採取日は公開表に記載なし）",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_representative_not_collection_site",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "新潟県・2026年10月19日更新の野生きのこ検査",
+          "https://www.pref.niigata.lg.jp/sec/syokuhin/0846968.html"
+        ]
+      ],
+      "radiation": {
+        "authority": "新潟県",
+        "source_updated_at": "2026-10-19",
+        "test_result": "不検出・合計<5.0 Bq/kg",
+        "individual_safety_guaranteed": false
+      }
+    },
+    {
+      "id": "myoko_naratake_20260928",
+      "name": "妙高市・ナラタケ検査【市町域】",
+      "pref": "新潟県 妙高市",
+      "lat": 37.03,
+      "lng": 138.25,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "市町村域の概略代表点。実際の採取地点・発生地点ではない",
+      "score": 48,
+      "fungi": [
+        "ナラタケ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record"
+      ],
+      "months": [
+        9
+      ],
+      "fee": "一般の採取権・入山券・鑑札条件は未確認",
+      "legal": "公的な検査記録であり、一般の人の入山・採取・持ち帰りを許可する資料ではありません。所有者や採取権者の確認が必要です。",
+      "note": "新潟県の2026年度野生きのこ検査、検査日2026-09-28。ナラタケの放射性セシウム合計は不検出（<5.6 Bq/kg：検出限界未満）。ゼロという意味ではない。採取日は別記されておらず、具体的な林・標高・植生・採取権も未確認。",
+      "record_dates": [
+        "2026-09-28"
+      ],
+      "record_date_basis": "県公式表の検査日（採取日は公開表に記載なし）",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_representative_not_collection_site",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "新潟県・2026年10月19日更新の野生きのこ検査",
+          "https://www.pref.niigata.lg.jp/sec/syokuhin/0846968.html"
+        ]
+      ],
+      "radiation": {
+        "authority": "新潟県",
+        "source_updated_at": "2026-10-19",
+        "test_result": "不検出・合計<5.6 Bq/kg",
+        "individual_safety_guaranteed": false
+      }
+    },
+    {
+      "id": "sado_momitake_20260929",
+      "name": "佐渡市・モミタケ検査【市町域】",
+      "pref": "新潟県 佐渡市",
+      "lat": 38.02,
+      "lng": 138.37,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "市町村域の概略代表点。実際の採取地点・発生地点ではない",
+      "score": 48,
+      "fungi": [
+        "モミタケ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record"
+      ],
+      "months": [
+        9
+      ],
+      "fee": "一般の採取権・入山券・鑑札条件は未確認",
+      "legal": "公的な検査記録であり、一般の人の入山・採取・持ち帰りを許可する資料ではありません。所有者や採取権者の確認が必要です。",
+      "note": "新潟県の2026年度野生きのこ検査、検査日2026-09-29。モミタケの放射性セシウム合計は不検出（<5.7 Bq/kg：検出限界未満）。ゼロという意味ではない。採取日は別記されておらず、具体的な林・標高・植生・採取権も未確認。",
+      "record_dates": [
+        "2026-09-29"
+      ],
+      "record_date_basis": "県公式表の検査日（採取日は公開表に記載なし）",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_representative_not_collection_site",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "新潟県・2026年10月19日更新の野生きのこ検査",
+          "https://www.pref.niigata.lg.jp/sec/syokuhin/0846968.html"
+        ]
+      ],
+      "radiation": {
+        "authority": "新潟県",
+        "source_updated_at": "2026-10-19",
+        "test_result": "不検出・合計<5.7 Bq/kg",
+        "individual_safety_guaranteed": false
+      }
+    },
+    {
+      "id": "minamiuonuma_naratake_20261015",
+      "name": "南魚沼市・ナラタケ検査【市町域】",
+      "pref": "新潟県 南魚沼市",
+      "lat": 37.07,
+      "lng": 138.88,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "市町村域の概略代表点。実際の採取地点・発生地点ではない",
+      "score": 48,
+      "fungi": [
+        "ナラタケ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record"
+      ],
+      "months": [
+        10
+      ],
+      "fee": "一般の採取権・入山券・鑑札条件は未確認",
+      "legal": "公的な検査記録であり、一般の人の入山・採取・持ち帰りを許可する資料ではありません。所有者や採取権者の確認が必要です。",
+      "note": "新潟県の2026年度野生きのこ検査、検査日2026-10-15。ナラタケの放射性セシウム合計は不検出（<6.8 Bq/kg：検出限界未満）。ゼロという意味ではない。採取日は別記されておらず、具体的な林・標高・植生・採取権も未確認。",
+      "record_dates": [
+        "2026-10-15"
+      ],
+      "record_date_basis": "県公式表の検査日（採取日は公開表に記載なし）",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_representative_not_collection_site",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "新潟県・2026年10月19日更新の野生きのこ検査",
+          "https://www.pref.niigata.lg.jp/sec/syokuhin/0846968.html"
+        ]
+      ],
+      "radiation": {
+        "authority": "新潟県",
+        "source_updated_at": "2026-10-19",
+        "test_result": "不検出・合計<6.8 Bq/kg",
+        "individual_safety_guaranteed": false
+      }
+    },
+    {
+      "id": "itoigawa_naratake_20261015",
+      "name": "糸魚川市・ナラタケ検査【市町域】",
+      "pref": "新潟県 糸魚川市",
+      "lat": 37.04,
+      "lng": 137.86,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "市町村域の概略代表点。実際の採取地点・発生地点ではない",
+      "score": 48,
+      "fungi": [
+        "ナラタケ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record"
+      ],
+      "months": [
+        10
+      ],
+      "fee": "一般の採取権・入山券・鑑札条件は未確認",
+      "legal": "公的な検査記録であり、一般の人の入山・採取・持ち帰りを許可する資料ではありません。所有者や採取権者の確認が必要です。",
+      "note": "新潟県の2026年度野生きのこ検査、検査日2026-10-15。ナラタケの放射性セシウム合計は不検出（<7.1 Bq/kg：検出限界未満）。ゼロという意味ではない。採取日は別記されておらず、具体的な林・標高・植生・採取権も未確認。",
+      "record_dates": [
+        "2026-10-15"
+      ],
+      "record_date_basis": "県公式表の検査日（採取日は公開表に記載なし）",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_representative_not_collection_site",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "新潟県・2026年10月19日更新の野生きのこ検査",
+          "https://www.pref.niigata.lg.jp/sec/syokuhin/0846968.html"
+        ]
+      ],
+      "radiation": {
+        "authority": "新潟県",
+        "source_updated_at": "2026-10-19",
+        "test_result": "不検出・合計<7.1 Bq/kg",
+        "individual_safety_guaranteed": false
+      }
+    },
+    {
+      "id": "uonuma_naratake_20261019",
+      "name": "魚沼市・ナラタケ検査【市町域】",
+      "pref": "新潟県 魚沼市",
+      "lat": 37.23,
+      "lng": 138.97,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "市町村域の概略代表点。実際の採取地点・発生地点ではない",
+      "score": 48,
+      "fungi": [
+        "ナラタケ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record"
+      ],
+      "months": [
+        10
+      ],
+      "fee": "一般の採取権・入山券・鑑札条件は未確認",
+      "legal": "公的な検査記録であり、一般の人の入山・採取・持ち帰りを許可する資料ではありません。所有者や採取権者の確認が必要です。",
+      "note": "新潟県の2026年度野生きのこ検査、検査日2026-10-19。ナラタケの放射性セシウム合計は不検出（<7.1 Bq/kg：検出限界未満）。ゼロという意味ではない。採取日は別記されておらず、具体的な林・標高・植生・採取権も未確認。",
+      "record_dates": [
+        "2026-10-19"
+      ],
+      "record_date_basis": "県公式表の検査日（採取日は公開表に記載なし）",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_representative_not_collection_site",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "新潟県・2026年10月19日更新の野生きのこ検査",
+          "https://www.pref.niigata.lg.jp/sec/syokuhin/0846968.html"
+        ]
+      ],
+      "radiation": {
+        "authority": "新潟県",
+        "source_updated_at": "2026-10-19",
+        "test_result": "不検出・合計<7.1 Bq/kg",
+        "individual_safety_guaranteed": false
+      }
+    },
+    {
+      "id": "kitakata_matsutake_nondestructive_20261014",
+      "name": "喜多方市・マツタケ非破壊検査【市域】",
+      "pref": "福島県 喜多方市",
+      "lat": 37.65,
+      "lng": 139.87,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "市町村域の概略代表点。実際の採取地点・発生地点ではない",
+      "score": 48,
+      "fungi": [
+        "マツタケ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record"
+      ],
+      "months": [
+        10
+      ],
+      "fee": "一般の採取権・入山券・鑑札条件は未確認",
+      "legal": "公的な検査記録であり、一般の人の入山・採取・持ち帰りを許可する資料ではありません。所有者や採取権者の確認が必要です。",
+      "note": "2026-10-14福島県非破壊検査、喜多方市の検体070153–070158は3不合格・3合格。これは福島県の検査手続上の合否で、数値（Bq/kg）・国の基準超過を直接表すものではない。市内の発生地点・土地所有・採取権は不明。流通・出荷規制は個別制度を参照。",
+      "record_dates": [
+        "2026-10-14"
+      ],
+      "record_date_basis": "福島県の非破壊検査日（個別の採取日は不明）",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_representative_not_collection_site",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "福島県・2026年10月14日更新の非破壊検査",
+          "https://www.pref.fukushima.lg.jp/sec/36055c/hihakai-kekka.html"
+        ]
+      ],
+      "radiation": {
+        "authority": "福島県",
+        "source_updated_at": "2026-10-14",
+        "screening_outcome": "3不合格・3合格",
+        "not_direct_bq_value": true,
+        "individual_safety_guaranteed": false
+      }
+    },
+    {
+      "id": "iwaki_matsutake_nondestructive_20261014",
+      "name": "いわき市・マツタケ非破壊検査【市域】",
+      "pref": "福島県 いわき市",
+      "lat": 37.05,
+      "lng": 140.9,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "市町村域の概略代表点。実際の採取地点・発生地点ではない",
+      "score": 48,
+      "fungi": [
+        "マツタケ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record"
+      ],
+      "months": [
+        10
+      ],
+      "fee": "一般の採取権・入山券・鑑札条件は未確認",
+      "legal": "公的な検査記録であり、一般の人の入山・採取・持ち帰りを許可する資料ではありません。所有者や採取権者の確認が必要です。",
+      "note": "2026-10-14福島県非破壊検査、いわき市の検体070159–070165は7不合格。これは福島県の検査手続上の合否で、数値（Bq/kg）・国の基準超過を直接表すものではない。市内の発生地点・土地所有・採取権は不明。流通・出荷規制は個別制度を参照。",
+      "record_dates": [
+        "2026-10-14"
+      ],
+      "record_date_basis": "福島県の非破壊検査日（個別の採取日は不明）",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_representative_not_collection_site",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "福島県・2026年10月14日更新の非破壊検査",
+          "https://www.pref.fukushima.lg.jp/sec/36055c/hihakai-kekka.html"
+        ]
+      ],
+      "radiation": {
+        "authority": "福島県",
+        "source_updated_at": "2026-10-14",
+        "screening_outcome": "7不合格",
+        "not_direct_bq_value": true,
+        "individual_safety_guaranteed": false
+      }
+    },
+    {
+      "id": "fujikawaguchiko_matsutake_20260929",
+      "name": "富士河口湖町・マツタケ検査【町域】",
+      "pref": "山梨県 南都留郡富士河口湖町",
+      "lat": 35.5,
+      "lng": 138.75,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "市町村域の概略代表点。実際の採取地点・発生地点ではない",
+      "score": 48,
+      "fungi": [
+        "マツタケ"
+      ],
+      "tags": [
+        "fuji",
+        "regional_record"
+      ],
+      "months": [
+        9
+      ],
+      "fee": "一般の採取権・入山券・鑑札条件は未確認",
+      "legal": "富士河口湖町の野生きのこは出荷制限区域で採取・摂取等の自粛要請がある。採取目的の入山を推奨しない。",
+      "note": "山梨県10月14日更新の2026年度検査表。富士河口湖町産マツタケは2026-09-29検査結果判明、Cs134不検出<4.71、Cs137=41.8、合計42 Bq/kg。採取日・詳細地点・植生・標高・DNA同定は未公表。国の出荷制限と県の採取・摂取自粛が継続。基準値未満でも解除ではない。",
+      "record_dates": [
+        "2026-09-29"
+      ],
+      "record_date_basis": "検査結果判明日（採取日未公表）",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_representative_not_collection_site",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "山梨県・令和8年度きのこ検査表（更新2026-10-14）",
+          "https://www.pref.yamanashi.jp/ringyo/fukyu/housyaseikennsakekka/r8tokuyourinsankensakekka.html"
+        ],
+        [
+          "山梨県・採取出荷摂取の自粛",
+          "https://www.pref.yamanashi.jp/release/ringyo/0710/houshaseibusshitukensa.html"
+        ]
+      ],
+      "radiation": {
+        "authority": "山梨県",
+        "source_updated_at": "2026-10-14",
+        "shipping_restriction": true,
+        "collection_and_consumption_advisory": true,
+        "cs_total_bq_kg_as_reported": "42",
+        "individual_safety_guaranteed": false
+      }
+    },
+    {
+      "id": "hayakawa_shakashimeji_20261007",
+      "name": "早川町・シャカシメジ検査【町域】",
+      "pref": "山梨県 南巨摩郡早川町",
+      "lat": 35.42,
+      "lng": 138.36,
+      "status": "blue",
+      "statusLabel": "発生・検査記録のみ／採取権未確認",
+      "precision": "市町村域の概略代表点。実際の採取地点・発生地点ではない",
+      "score": 48,
+      "fungi": [
+        "シャカシメジ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record"
+      ],
+      "months": [
+        10
+      ],
+      "fee": "一般の採取権・入山券・鑑札条件は未確認",
+      "legal": "公的な検査記録であり、一般の人の入山・採取・持ち帰りを許可する資料ではありません。所有者や採取権者の確認が必要です。",
+      "note": "山梨県10月14日更新の2026年度検査表。シャカシメジは2026-10-07検査結果判明、Cs134不検出<4.03、Cs137不検出<4.36、合計不検出<8.4 Bq/kg。ゼロではない。採取日、林相、標高、採取権、標本番号・DNA同定は未確認。",
+      "record_dates": [
+        "2026-10-07"
+      ],
+      "record_date_basis": "検査結果判明日（採取日未公表）",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_representative_not_collection_site",
+      "edibility_review": "和名を記録したもので現物の食用判定や放射性物質の安全保証ではない。類似毒菌に注意。",
+      "sources": [
+        [
+          "山梨県・令和8年度きのこ検査表（更新2026-10-14）",
+          "https://www.pref.yamanashi.jp/ringyo/fukyu/housyaseikennsakekka/r8tokuyourinsankensakekka.html"
+        ]
+      ],
+      "radiation": {
+        "authority": "山梨県",
+        "source_updated_at": "2026-10-14",
+        "test_result": "合計不検出<8.4 Bq/kg",
+        "individual_safety_guaranteed": false
+      }
+    }
+  ]
+}
