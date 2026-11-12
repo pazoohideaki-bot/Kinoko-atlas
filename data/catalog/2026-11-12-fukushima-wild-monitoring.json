@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-12",
+  "scope": "福島県の2026-11-06・11-10公表の天然きのこ実検体。原木／菌床の栽培品除外。",
+  "places": [
+    {
+      "id": "minamiaizu_wild_fungi_20261102_05",
+      "name": "南会津町・ナメコ／ムキタケ／シモフリシメジ検査【町域】",
+      "pref": "福島県 南会津郡南会津町",
+      "lat": 37.20028,
+      "lng": 139.77333,
+      "status": "blue",
+      "statusLabel": "発生・行政検査記録のみ／採取権未確認",
+      "precision": "南会津町役場周辺の町域代表点。発生木・採取地・菌の座標ではない。",
+      "score": 55,
+      "fungi": [
+        "ナメコ",
+        "ムキタケ",
+        "シモフリシメジ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record",
+        "radiation"
+      ],
+      "months": [
+        11
+      ],
+      "fee": "一般の採取許可・鑑札・入山券は未確認。検査の存在は採取許可ではない",
+      "legal": "県の検査は採取権を認める資料ではない。山林所有者、採取権者、立入規制、最新の出荷・摂取制限を別に確認。検体の基準値未満は地域全体の安全・制限解除を意味しない。",
+      "note": "福島県の2026年11月6日・10日公表検査表より。11月2日採取ナメコ13 Bq/kg、11月4日採取ナメコ14、11月5日採取ナメコ18・ムキタケ16・シモフリシメジ36 Bq/kg。Cs-134は各検体で検出限界未満（0ではない）。標本番号、遺伝子同定、採取林の植生・標高・発生木は非公表。各数値は単一検体の合算値。栽培きのこは除外。",
+      "record_dates": [
+        "2026-11-02",
+        "2026-11-04",
+        "2026-11-05"
+      ],
+      "record_date_basis": "県検査表の検体採取日（県公表日は2026-11-06と2026-11-10）",
+      "record_kind": "福島県緊急時モニタリングの野生きのこ検体",
+      "coordinate_role": "municipality_office_representative_not_collection_site",
+      "edibility_review": "公的検査表に記載された和名であり、実際の個体の食毒同定・健康安全性の保証ではない。類似毒菌、摂取制限、放射性物質に注意。",
+      "sources": [
+        [
+          "福島県・11月6日公表のきのこ検査",
+          "https://www.pref.fukushima.lg.jp/uploaded/attachment/769658.pdf"
+        ],
+        [
+          "福島県・11月10日公表のきのこ検査",
+          "https://www.pref.fukushima.lg.jp/uploaded/attachment/769996.pdf"
+        ],
+        [
+          "福島県・緊急時モニタリング検査掲載一覧",
+          "https://www.pref.fukushima.lg.jp/site/portal/mon-kekka.html"
+        ]
+      ],
+      "months_basis": "採取した2026年11月を表示。通年の発生期や現在の発生状況を示すものではない。",
+      "radiation": {
+        "authority": "福島県",
+        "source_updated_at": "2026-11-10",
+        "unit": "Bq/kg",
+        "specimens": [
+          {
+            "species": "ナメコ",
+            "collected_at": "2026-11-02",
+            "total_bq_kg": 13,
+            "cs134": "<3.9",
+            "cs137": 13.2,
+            "announced_at": "2026-11-06"
+          },
+          {
+            "species": "ナメコ",
+            "collected_at": "2026-11-04",
+            "total_bq_kg": 14,
+            "cs134": "<2.7",
+            "cs137": 13.7,
+            "announced_at": "2026-11-10"
+          },
+          {
+            "species": "ナメコ",
+            "collected_at": "2026-11-05",
+            "total_bq_kg": 18,
+            "cs134": "<2.2",
+            "cs137": 17.9,
+            "announced_at": "2026-11-10"
+          },
+          {
+            "species": "ムキタケ",
+            "collected_at": "2026-11-05",
+            "total_bq_kg": 16,
+            "cs134": "<3.6",
+            "cs137": 16,
+            "announced_at": "2026-11-10"
+          },
+          {
+            "species": "シモフリシメジ",
+            "collected_at": "2026-11-05",
+            "total_bq_kg": 36,
+            "cs134": "<5.9",
+            "cs137": 35.5,
+            "announced_at": "2026-11-10"
+          }
+        ],
+        "individual_safety_guaranteed": false,
+        "regional_restrictions_cleared": false
+      }
+    }
+  ]
+}

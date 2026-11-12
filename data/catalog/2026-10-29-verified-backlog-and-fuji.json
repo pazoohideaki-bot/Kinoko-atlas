@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_at": "2026-10-29",
+  "reviewed_at": "2026-11-12",
   "scope": "2026-10-15/22 pending verified primary sources plus 2026-10-29 incremental Yamanashi records; all pins representative and not a collection site",
   "places": [
     {
@@ -759,8 +759,8 @@
         10
       ],
       "fee": "一般の採取権・入山券・鑑札条件は未確認",
-      "legal": "公的な検査記録であり、一般の人の入山・採取・持ち帰りを許可する資料ではありません。所有者や採取権者の確認が必要です。",
-      "note": "2026-10-14福島県非破壊検査、いわき市の検体070159–070165は7不合格。これは福島県の検査手続上の合否で、数値（Bq/kg）・国の基準超過を直接表すものではない。市内の発生地点・土地所有・採取権は不明。流通・出荷規制は個別制度を参照。",
+      "legal": "公的な検査記録であり、一般の人の入山・採取・持ち帰りを許可する資料ではありません。所有者や採取権者の確認が必要です。 【自家消費の条件】いわき市では原則として野生きのこの摂取制限が継続。ただしマツタケ・ナメコ・ナラタケ・ムキタケ・クリタケ・マイタケは、市内在住者が持ち込んだ個別検体の非破壊検査に合格した場合に限り自家消費の摂取判断が可能。採取・入山権とは別。",
+      "note": "2026-10-14福島県非破壊検査、いわき市の検体070159–070165は7不合格。これは福島県の検査手続上の合否で、数値（Bq/kg）・国の基準超過を直接表すものではない。市内の発生地点・土地所有・採取権は不明。流通・出荷規制は個別制度を参照。 【2026-11-12照合】いわき市公式2026-10-09制度案内、2026-11-05公開結果で市内在住者のみ、無料、予約不要、JA福島さくら夏井営農経済センター2階（いわき市平荒田目字中田45）、平日9時～16時30分、持参量約300g、検査約10分／検体を確認。6種それぞれのスクリーニング基準を満たした個体に限り摂取判断でき、他のきのこ・未検査個体・採取権・出荷許可へ拡張しない。",
       "record_dates": [
         "2026-10-14"
       ],
@@ -772,6 +772,14 @@
         [
           "福島県・2026年10月14日更新の非破壊検査",
           "https://www.pref.fukushima.lg.jp/sec/36055c/hihakai-kekka.html"
+        ],
+        [
+          "いわき市・野生きのこ6品目の自家消費条件（2026-10-09）",
+          "https://www.city.iwaki.lg.jp/www/contents/1790663106972/index.html"
+        ],
+        [
+          "いわき市・自家消費用非破壊検査週報（2026-11-05）",
+          "https://www.city.iwaki.lg.jp/www/contents/1792481760213/index.html"
         ]
       ],
       "radiation": {
@@ -781,7 +789,39 @@
         "not_direct_bq_value": true,
         "individual_safety_guaranteed": false
       },
-      "months_basis": "検査を行った月。個体採取月とは区別。"
+      "months_basis": "検査を行った月。個体採取月とは区別。",
+      "consumption_rules": {
+        "source_published_at": "2026-10-09",
+        "reviewed_at": "2026-11-12",
+        "authority": "いわき市",
+        "eligible": "いわき市在住の検査申込者",
+        "species": [
+          "マツタケ",
+          "ナメコ",
+          "ナラタケ",
+          "ムキタケ",
+          "クリタケ",
+          "マイタケ"
+        ],
+        "fee": "無料",
+        "lab": "JA福島さくら夏井営農経済センター2階",
+        "address": "いわき市平荒田目字中田45",
+        "hours": "平日9:00～16:30",
+        "reservation": "不要",
+        "sample_mass": "約300g",
+        "screening_levels_bq_kg": {
+          "マツタケ": 35,
+          "ナメコ": 53,
+          "ナラタケ": 60,
+          "ムキタケ": 44,
+          "クリタケ": 57,
+          "マイタケ": 64
+        },
+        "individual_pass_required": true,
+        "other_species_consumption_restricted": true,
+        "collection_rights_granted": false,
+        "source": "https://www.city.iwaki.lg.jp/www/contents/1790663106972/index.html"
+      }
     },
     {
       "id": "fujikawaguchiko_matsutake_20260929",
