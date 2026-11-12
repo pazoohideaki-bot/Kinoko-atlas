@@ -45,6 +45,48 @@ jobs:
         uses: actions/deploy-pages@v4
       - name: Verify public page
         run: python3 tests/ui_smoke.py --url "${{ steps.deployment.outputs.page_url }}?ui=20261004-ui2" --out checks/public
+      - name: Verify public build metadata and place data
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import os
+          import time
+          import urllib.request
+          from pathlib import Path
+          from urllib.parse import urlencode
+
+          base = os.environ['PAGE_URL'].rstrip('/') + '/'
+          expected = json.loads(Path('dist/build.json').read_text(encoding='utf-8'))
+          def download(path):
+              url = base + path + '?' + urlencode({'check': os.environ.get('GITHUB_SHA','latest')})
+              with urllib.request.urlopen(url, timeout=25) as response:
+                  return json.loads(response.read().decode('utf-8'))
+          for attempt in range(5):
+              try:
+                  published = download('build.json')
+                  places = download('data/places.json')
+                  break
+              except Exception:
+                  if attempt == 4:
+                      raise
+                  time.sleep(6)
+          assert isinstance(places, list)
+          assert len(places) == len({p['id'] for p in places}), 'Duplicate public place IDs'
+          assert len(places) == published['place_count'], 'Public place count mismatch'
+          for key in ('ui_version', 'data_version', 'place_count', 'base_place_count',
+                      'added_record_count', 'records_sha256', 'catalog_files'):
+              assert published[key] == expected[key], f'Public metadata mismatch: {key}'
+          compact = json.dumps(places, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
+          digest = hashlib.sha256(compact.encode()).hexdigest()
+          assert digest == published['records_sha256'], 'Public records checksum mismatch'
+          print(json.dumps({'public_data_verified': True,
+                            'place_count': len(places),
+                            'data_version': published['data_version'],
+                            'records_sha256': digest}, ensure_ascii=False))
+          PY
       - name: Save browser evidence
         if: always()
         uses: actions/upload-artifact@v4
