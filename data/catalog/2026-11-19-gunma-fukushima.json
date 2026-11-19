@@ -1,0 +1,570 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-19",
+  "scope": "2026-11-06 Gunma wild fungus official samples; 2026-11-17 Fukushima Kaneyama samples; 2026-11-12 Fukushima wild naratake shipping restriction repeal. Municipality representative points only, not legal foraging locations.",
+  "places": [
+    {
+      "id": "gunma_katashina_wild_fungi_20260925_1002",
+      "name": "片品村・サンゴハリタケモドキ／ヌメリスギタケ検査【村域】",
+      "pref": "群馬県 利根郡片品村",
+      "lat": 36.773653,
+      "lng": 139.232178,
+      "status": "blue",
+      "statusLabel": "行政・制度記録のみ／一般の採取権は未確認",
+      "precision": "行政検査で公表された市町村を示す代表点。採取山林・発生木・入山可能な場所の座標ではない",
+      "score": 47,
+      "fungi": [
+        "サンゴハリタケモドキ",
+        "ヌメリスギタケ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record",
+        "radiation"
+      ],
+      "months": [
+        9,
+        10
+      ],
+      "fee": "自家消費用の採取許可・鑑札・入山券の一般開放条件は未確認",
+      "legal": "採取地の土地所有者・採取権者・入山規制を別途確認する必要がある。検査実施は採取許可でも購入・摂取の推奨でもない。【出荷制限】群馬県2026年10月1日一覧では当該市町村産の野生きのこが出荷制限対象。個別検体の基準値以下・不検出では解除されない。出荷制限と自家消費・採取権は別。",
+      "note": "2026-09-25採取サンゴハリタケモドキ：Cs134は9.13 Bq/kg未満、Cs137=19.3、合計19 Bq/kg。2026-10-02採取ヌメリスギタケ：Cs134は8.65未満、Cs137=15.7、合計16 Bq/kg。結果判明最終日2026-10-28、県公表2026-11-06。 発生木・詳細林班・植生・標高・標本番号・DNA同定は公表資料から確認できない。個別検体の結果は市町村全体の安全を意味しない。",
+      "record_dates": [
+        "2026-09-25",
+        "2026-10-02"
+      ],
+      "record_date_basis": "行政検査表の検体採取日",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_center_representative_not_collection_site",
+      "edibility_review": "記録は行政資料の和名によるもので実物の同定ではない。類似毒菌との識別・加熱・放射性物質等は別途専門家の確認が必要。",
+      "sources": [
+        [
+          "群馬県・2026年11月6日公表の野生きのこ検査",
+          "https://www.pref.gunma.jp/site/houdou/782079.html"
+        ],
+        [
+          "群馬県・2026年10月1日時点の出荷制限一覧",
+          "https://www.pref.gunma.jp/site/shokunoanzen/8264.html"
+        ],
+        [
+          "位置代表点の根拠",
+          "https://geoshape.ex.nii.ac.jp/ka/resource/10/104430010.html"
+        ]
+      ],
+      "months_basis": "検体採取月のみを表示。一般的な発生季節や採集適期を意味しない。",
+      "radiation": {
+        "authority": "群馬県",
+        "source_updated_at": "2026-11-06",
+        "shipping_restriction": true,
+        "individual_safety_guaranteed": false,
+        "specimens": [
+          {
+            "species": "サンゴハリタケモドキ",
+            "collected_at": "2026-09-25",
+            "cs134": "<9.13",
+            "cs137": 19.3,
+            "total_bq_kg": 19
+          },
+          {
+            "species": "ヌメリスギタケ",
+            "collected_at": "2026-10-02",
+            "cs134": "<8.65",
+            "cs137": 15.7,
+            "total_bq_kg": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "gunma_fujioka_hatakeshimeji_20260918",
+      "name": "藤岡市・ハタケシメジ検査【市域】",
+      "pref": "群馬県 藤岡市",
+      "lat": 36.26456,
+      "lng": 139.0766,
+      "status": "blue",
+      "statusLabel": "行政・制度記録のみ／一般の採取権は未確認",
+      "precision": "行政検査で公表された市町村を示す代表点。採取山林・発生木・入山可能な場所の座標ではない",
+      "score": 47,
+      "fungi": [
+        "ハタケシメジ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record",
+        "radiation"
+      ],
+      "months": [
+        9
+      ],
+      "fee": "自家消費用の採取許可・鑑札・入山券の一般開放条件は未確認",
+      "legal": "採取地の土地所有者・採取権者・入山規制を別途確認する必要がある。検査実施は採取許可でも購入・摂取の推奨でもない。",
+      "note": "2026-09-18採取ハタケシメジ：Cs134は9.76 Bq/kg未満、Cs137は6.74未満、合計は検出せず。単一検体で、0 Bq/kgという意味ではない。県2026-11-06公表。 発生木・詳細林班・植生・標高・標本番号・DNA同定は公表資料から確認できない。個別検体の結果は市町村全体の安全を意味しない。",
+      "record_dates": [
+        "2026-09-18"
+      ],
+      "record_date_basis": "行政検査表の検体採取日",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_center_representative_not_collection_site",
+      "edibility_review": "記録は行政資料の和名によるもので実物の同定ではない。類似毒菌との識別・加熱・放射性物質等は別途専門家の確認が必要。",
+      "sources": [
+        [
+          "群馬県・2026年11月6日公表の野生きのこ検査",
+          "https://www.pref.gunma.jp/site/houdou/782079.html"
+        ],
+        [
+          "群馬県・2026年10月1日時点の出荷制限一覧",
+          "https://www.pref.gunma.jp/site/shokunoanzen/8264.html"
+        ],
+        [
+          "位置代表点の根拠",
+          "https://geoshape.ex.nii.ac.jp/ka/resource/10/102090390.html"
+        ]
+      ],
+      "months_basis": "検体採取月のみを表示。一般的な発生季節や採集適期を意味しない。",
+      "radiation": {
+        "authority": "群馬県",
+        "source_updated_at": "2026-11-06",
+        "individual_safety_guaranteed": false,
+        "specimens": [
+          {
+            "species": "ハタケシメジ",
+            "collected_at": "2026-09-18",
+            "cs134": "<9.76",
+            "cs137": "<6.74",
+            "total_bq_kg": "検出せず（各核種の検出限界未満）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gunma_kanna_hatakeshimeji_20260927",
+      "name": "神流町・ハタケシメジ検査【町域】",
+      "pref": "群馬県 多野郡神流町",
+      "lat": 36.128668,
+      "lng": 138.91183,
+      "status": "blue",
+      "statusLabel": "行政・制度記録のみ／一般の採取権は未確認",
+      "precision": "行政検査で公表された市町村を示す代表点。採取山林・発生木・入山可能な場所の座標ではない",
+      "score": 47,
+      "fungi": [
+        "ハタケシメジ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record",
+        "radiation"
+      ],
+      "months": [
+        9
+      ],
+      "fee": "自家消費用の採取許可・鑑札・入山券の一般開放条件は未確認",
+      "legal": "採取地の土地所有者・採取権者・入山規制を別途確認する必要がある。検査実施は採取許可でも購入・摂取の推奨でもない。",
+      "note": "2026-09-27採取ハタケシメジ：Cs134は9.44 Bq/kg未満、Cs137は7.16未満、合計は検出せず。県2026-11-06公表。 発生木・詳細林班・植生・標高・標本番号・DNA同定は公表資料から確認できない。個別検体の結果は市町村全体の安全を意味しない。",
+      "record_dates": [
+        "2026-09-27"
+      ],
+      "record_date_basis": "行政検査表の検体採取日",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_center_representative_not_collection_site",
+      "edibility_review": "記録は行政資料の和名によるもので実物の同定ではない。類似毒菌との識別・加熱・放射性物質等は別途専門家の確認が必要。",
+      "sources": [
+        [
+          "群馬県・2026年11月6日公表の野生きのこ検査",
+          "https://www.pref.gunma.jp/site/houdou/782079.html"
+        ],
+        [
+          "群馬県・2026年10月1日時点の出荷制限一覧",
+          "https://www.pref.gunma.jp/site/shokunoanzen/8264.html"
+        ],
+        [
+          "位置代表点の根拠",
+          "https://geoshape.ex.nii.ac.jp/ka/resource/10/103670040.html"
+        ]
+      ],
+      "months_basis": "検体採取月のみを表示。一般的な発生季節や採集適期を意味しない。",
+      "radiation": {
+        "authority": "群馬県",
+        "source_updated_at": "2026-11-06",
+        "individual_safety_guaranteed": false,
+        "specimens": [
+          {
+            "species": "ハタケシメジ",
+            "collected_at": "2026-09-27",
+            "cs134": "<9.44",
+            "cs137": "<7.16",
+            "total_bq_kg": "検出せず（各核種の検出限界未満）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gunma_showa_hatakeshimeji_20261005",
+      "name": "群馬県昭和村・ハタケシメジ検査【村域】",
+      "pref": "群馬県 利根郡昭和村（福島県昭和村とは別）",
+      "lat": 36.630765,
+      "lng": 139.071247,
+      "status": "blue",
+      "statusLabel": "行政・制度記録のみ／一般の採取権は未確認",
+      "precision": "行政検査で公表された市町村を示す代表点。採取山林・発生木・入山可能な場所の座標ではない",
+      "score": 47,
+      "fungi": [
+        "ハタケシメジ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record",
+        "radiation"
+      ],
+      "months": [
+        10
+      ],
+      "fee": "自家消費用の採取許可・鑑札・入山券の一般開放条件は未確認",
+      "legal": "採取地の土地所有者・採取権者・入山規制を別途確認する必要がある。検査実施は採取許可でも購入・摂取の推奨でもない。",
+      "note": "2026-10-05採取ハタケシメジ：Cs134検出せず（9.59 Bq/kg未満）、Cs137検出せず（県表記8.24 Bq/kgの検出限界）、合計検出せず。群馬県2026-11-06公表。 発生木・詳細林班・植生・標高・標本番号・DNA同定は公表資料から確認できない。個別検体の結果は市町村全体の安全を意味しない。",
+      "record_dates": [
+        "2026-10-05"
+      ],
+      "record_date_basis": "行政検査表の検体採取日",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_center_representative_not_collection_site",
+      "edibility_review": "記録は行政資料の和名によるもので実物の同定ではない。類似毒菌との識別・加熱・放射性物質等は別途専門家の確認が必要。",
+      "sources": [
+        [
+          "群馬県・2026年11月6日公表の野生きのこ検査",
+          "https://www.pref.gunma.jp/site/houdou/782079.html"
+        ],
+        [
+          "群馬県・2026年10月1日時点の出荷制限一覧",
+          "https://www.pref.gunma.jp/site/shokunoanzen/8264.html"
+        ],
+        [
+          "位置代表点の根拠",
+          "https://geoshape.ex.nii.ac.jp/ka/resource/10/10448004001.html"
+        ]
+      ],
+      "months_basis": "検体採取月のみを表示。一般的な発生季節や採集適期を意味しない。",
+      "radiation": {
+        "authority": "群馬県",
+        "source_updated_at": "2026-11-06",
+        "individual_safety_guaranteed": false,
+        "specimens": [
+          {
+            "species": "ハタケシメジ",
+            "collected_at": "2026-10-05",
+            "cs134": "<9.59",
+            "cs137": "検出せず（検出限界8.24）",
+            "total_bq_kg": "検出せず"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gunma_numata_mukitake_20261014",
+      "name": "沼田市・ムキタケ検査【市域】",
+      "pref": "群馬県 沼田市",
+      "lat": 36.647146,
+      "lng": 139.041059,
+      "status": "blue",
+      "statusLabel": "行政・制度記録のみ／一般の採取権は未確認",
+      "precision": "行政検査で公表された市町村を示す代表点。採取山林・発生木・入山可能な場所の座標ではない",
+      "score": 47,
+      "fungi": [
+        "ムキタケ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record",
+        "radiation"
+      ],
+      "months": [
+        10
+      ],
+      "fee": "自家消費用の採取許可・鑑札・入山券の一般開放条件は未確認",
+      "legal": "採取地の土地所有者・採取権者・入山規制を別途確認する必要がある。検査実施は採取許可でも購入・摂取の推奨でもない。【出荷制限】群馬県2026年10月1日一覧では当該市町村産の野生きのこが出荷制限対象。個別検体の基準値以下・不検出では解除されない。出荷制限と自家消費・採取権は別。",
+      "note": "2026-10-14採取ムキタケ：Cs134は7.14 Bq/kg未満、Cs137=6.80、合計6.8 Bq/kg。県2026-11-06公表。 発生木・詳細林班・植生・標高・標本番号・DNA同定は公表資料から確認できない。個別検体の結果は市町村全体の安全を意味しない。",
+      "record_dates": [
+        "2026-10-14"
+      ],
+      "record_date_basis": "行政検査表の検体採取日",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_center_representative_not_collection_site",
+      "edibility_review": "記録は行政資料の和名によるもので実物の同定ではない。類似毒菌との識別・加熱・放射性物質等は別途専門家の確認が必要。",
+      "sources": [
+        [
+          "群馬県・2026年11月6日公表の野生きのこ検査",
+          "https://www.pref.gunma.jp/site/houdou/782079.html"
+        ],
+        [
+          "群馬県・2026年10月1日時点の出荷制限一覧",
+          "https://www.pref.gunma.jp/site/shokunoanzen/8264.html"
+        ],
+        [
+          "位置代表点の根拠",
+          "https://geoshape.ex.nii.ac.jp/ka/resource/10/102060020.html"
+        ]
+      ],
+      "months_basis": "検体採取月のみを表示。一般的な発生季節や採集適期を意味しない。",
+      "radiation": {
+        "authority": "群馬県",
+        "source_updated_at": "2026-11-06",
+        "shipping_restriction": true,
+        "individual_safety_guaranteed": false,
+        "specimens": [
+          {
+            "species": "ムキタケ",
+            "collected_at": "2026-10-14",
+            "cs134": "<7.14",
+            "cs137": 6.8,
+            "total_bq_kg": 6.8
+          }
+        ]
+      }
+    },
+    {
+      "id": "gunma_annaka_watagenaratake_20261020",
+      "name": "安中市・ワタゲナラタケ検査【市域】",
+      "pref": "群馬県 安中市",
+      "lat": 36.316667,
+      "lng": 138.883333,
+      "status": "blue",
+      "statusLabel": "行政・制度記録のみ／一般の採取権は未確認",
+      "precision": "行政検査で公表された市町村を示す代表点。採取山林・発生木・入山可能な場所の座標ではない",
+      "score": 47,
+      "fungi": [
+        "ワタゲナラタケ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record",
+        "radiation"
+      ],
+      "months": [
+        10
+      ],
+      "fee": "自家消費用の採取許可・鑑札・入山券の一般開放条件は未確認",
+      "legal": "採取地の土地所有者・採取権者・入山規制を別途確認する必要がある。検査実施は採取許可でも購入・摂取の推奨でもない。【出荷制限】群馬県2026年10月1日一覧では当該市町村産の野生きのこが出荷制限対象。個別検体の基準値以下・不検出では解除されない。出荷制限と自家消費・採取権は別。",
+      "note": "2026-10-20採取ワタゲナラタケ：Cs134は7.88 Bq/kg未満、Cs137は9.83未満、合計検出せず。県2026-11-06公表。市役所位置は市の公表する分単位の経緯度であり検体採取地点ではない。 発生木・詳細林班・植生・標高・標本番号・DNA同定は公表資料から確認できない。個別検体の結果は市町村全体の安全を意味しない。",
+      "record_dates": [
+        "2026-10-20"
+      ],
+      "record_date_basis": "行政検査表の検体採取日",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_center_representative_not_collection_site",
+      "edibility_review": "記録は行政資料の和名によるもので実物の同定ではない。類似毒菌との識別・加熱・放射性物質等は別途専門家の確認が必要。",
+      "sources": [
+        [
+          "群馬県・2026年11月6日公表の野生きのこ検査",
+          "https://www.pref.gunma.jp/site/houdou/782079.html"
+        ],
+        [
+          "群馬県・2026年10月1日時点の出荷制限一覧",
+          "https://www.pref.gunma.jp/site/shokunoanzen/8264.html"
+        ],
+        [
+          "位置代表点の根拠",
+          "https://www.city.annaka.lg.jp/page/1066.html"
+        ]
+      ],
+      "months_basis": "検体採取月のみを表示。一般的な発生季節や採集適期を意味しない。",
+      "radiation": {
+        "authority": "群馬県",
+        "source_updated_at": "2026-11-06",
+        "shipping_restriction": true,
+        "individual_safety_guaranteed": false,
+        "specimens": [
+          {
+            "species": "ワタゲナラタケ",
+            "collected_at": "2026-10-20",
+            "cs134": "<7.88",
+            "cs137": "<9.83",
+            "total_bq_kg": "検出せず（各核種の検出限界未満）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fukushima_kaneyama_nameko_mukitake_20261112_13",
+      "name": "福島県金山町・ナメコ／ムキタケ検査【町域】",
+      "pref": "福島県 大沼郡金山町",
+      "lat": 37.454238,
+      "lng": 139.525767,
+      "status": "blue",
+      "statusLabel": "行政・制度記録のみ／一般の採取権は未確認",
+      "precision": "行政検査で公表された市町村を示す代表点。採取山林・発生木・入山可能な場所の座標ではない",
+      "score": 47,
+      "fungi": [
+        "ナメコ",
+        "ムキタケ"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record",
+        "radiation"
+      ],
+      "months": [
+        11
+      ],
+      "fee": "自家消費用の採取許可・鑑札・入山券の一般開放条件は未確認",
+      "legal": "採取地の土地所有者・採取権者・入山規制を別途確認する必要がある。検査実施は採取許可でも購入・摂取の推奨でもない。",
+      "note": "福島県2026-11-17公表の緊急時モニタリング。11月12日採取ナメコ（腐生菌）はCs134<3.0、Cs137=5.28、合算5.3 Bq/kg。11月13日採取ムキタケ（腐生菌）はCs134<3.5、Cs137=9.79、合算9.8 Bq/kg。公式表の「腐生菌」表記を踏襲し、採集林・野生か栽培かの方式・採取権は断定しない。 発生木・詳細林班・植生・標高・標本番号・DNA同定は公表資料から確認できない。個別検体の結果は市町村全体の安全を意味しない。",
+      "record_dates": [
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "record_date_basis": "行政検査表の検体採取日",
+      "record_kind": "行政の野生きのこ検査記録",
+      "coordinate_role": "municipality_center_representative_not_collection_site",
+      "edibility_review": "記録は行政資料の和名によるもので実物の同定ではない。類似毒菌との識別・加熱・放射性物質等は別途専門家の確認が必要。",
+      "sources": [
+        [
+          "福島県・2026-11-17公表の検査表",
+          "https://www.pref.fukushima.lg.jp/uploaded/attachment/770856.pdf"
+        ],
+        [
+          "福島県・公式検査資料一覧",
+          "https://www.pref.fukushima.lg.jp/site/portal/mon-kekka.html"
+        ],
+        [
+          "町内代表点の根拠",
+          "https://geoshape.ex.nii.ac.jp/ka/resource/07/074450010.html"
+        ]
+      ],
+      "months_basis": "検体採取月のみを表示。一般的な発生季節や採集適期を意味しない。",
+      "radiation": {
+        "authority": "福島県",
+        "source_updated_at": "2026-11-17",
+        "individual_safety_guaranteed": false,
+        "specimens": [
+          {
+            "species": "ナメコ（腐生菌）",
+            "collected_at": "2026-11-12",
+            "cs134": "<3.0",
+            "cs137": 5.28,
+            "total_bq_kg": 5.3
+          },
+          {
+            "species": "ムキタケ（腐生菌）",
+            "collected_at": "2026-11-13",
+            "cs134": "<3.5",
+            "cs137": 9.79,
+            "total_bq_kg": 9.8
+          }
+        ]
+      }
+    },
+    {
+      "id": "fukushima_aizuwakamatsu_naratake_release_20261112",
+      "name": "会津若松市・野生ナラタケ出荷制限解除【市域】",
+      "pref": "福島県 会津若松市",
+      "lat": 37.496795,
+      "lng": 139.92609,
+      "status": "blue",
+      "statusLabel": "野生ナラタケの出荷制限解除／一般採取権は未確認",
+      "precision": "当該市町の行政区域を示す代表点。菌の発生・採取された山林や採集許可地点ではない",
+      "score": 42,
+      "fungi": [
+        "ナラタケ（出荷制限解除の対象種）"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record",
+        "radiation"
+      ],
+      "months": [
+        11
+      ],
+      "fee": "一般採取許可・鑑札・入山券の発行と料金は未確認",
+      "legal": "2026-11-12、原子力災害対策本部長が当該市町の野生ナラタケの出荷制限を解除。他の野生きのこや私有林・国有林の採取権には適用されない。出荷制限解除は一般の採取自由化・現物の食用同定・自家消費安全の保証ではない。最新の土地所有者・採取権者と個別の注意喚起を確認すること。",
+      "note": "2026-11-12厚生労働省公表の法的な出荷制限解除記録であり、2026年11月の新規採取・発生実績を示すものではない。対象種は行政発表の「ならたけ」（野生）表記。採取日・生育林・植生・標高・DNA同定の公表は本資料では確認できない。",
+      "record_dates": [
+        "2026-11-12"
+      ],
+      "record_date_basis": "出荷制限解除指示日。キノコの採取・観察日ではない。",
+      "record_kind": "原子力災害対策本部長の出荷制限解除指示（採取地点記録ではない）",
+      "coordinate_role": "municipality_center_representative_not_collection_site",
+      "edibility_review": "出荷制限の解除は野生のナラタケ類の安全な食用同定ではない。毒菌との混同や加熱等を注意。",
+      "sources": [
+        [
+          "厚生労働省・2026-11-12出荷制限解除",
+          "https://www.mhlw.go.jp/stf/newpage_77110.html"
+        ],
+        [
+          "福島県・2026-11-18時点の検査・制限掲載",
+          "https://www.pref.fukushima.lg.jp/site/portal/mon-kekka.html"
+        ],
+        [
+          "市町の代表点根拠",
+          "https://geoshape.ex.nii.ac.jp/ka/resource/07/072020250.html"
+        ]
+      ],
+      "months_basis": "行政の出荷制限解除指示月であり、発生月・採取季節ではない。",
+      "radiation": {
+        "authority": "原子力災害対策本部（厚生労働省公表）",
+        "source_updated_at": "2026-11-12",
+        "shipping_restriction_lifted": true,
+        "lifted_taxa": [
+          "野生ナラタケ"
+        ],
+        "other_species_not_cleared_by_this_notice": true,
+        "individual_safety_guaranteed": false
+      }
+    },
+    {
+      "id": "fukushima_aizumisato_naratake_release_20261112",
+      "name": "会津美里町・野生ナラタケ出荷制限解除【町域】",
+      "pref": "福島県 大沼郡会津美里町",
+      "lat": 37.460933,
+      "lng": 139.829314,
+      "status": "blue",
+      "statusLabel": "野生ナラタケの出荷制限解除／一般採取権は未確認",
+      "precision": "当該市町の行政区域を示す代表点。菌の発生・採取された山林や採集許可地点ではない",
+      "score": 42,
+      "fungi": [
+        "ナラタケ（出荷制限解除の対象種）"
+      ],
+      "tags": [
+        "mountain",
+        "regional_record",
+        "radiation"
+      ],
+      "months": [
+        11
+      ],
+      "fee": "一般採取許可・鑑札・入山券の発行と料金は未確認",
+      "legal": "2026-11-12、原子力災害対策本部長が当該市町の野生ナラタケの出荷制限を解除。他の野生きのこや私有林・国有林の採取権には適用されない。出荷制限解除は一般の採取自由化・現物の食用同定・自家消費安全の保証ではない。最新の土地所有者・採取権者と個別の注意喚起を確認すること。",
+      "note": "2026-11-12厚生労働省公表の法的な出荷制限解除記録であり、2026年11月の新規採取・発生実績を示すものではない。対象種は行政発表の「ならたけ」（野生）表記。採取日・生育林・植生・標高・DNA同定の公表は本資料では確認できない。",
+      "record_dates": [
+        "2026-11-12"
+      ],
+      "record_date_basis": "出荷制限解除指示日。キノコの採取・観察日ではない。",
+      "record_kind": "原子力災害対策本部長の出荷制限解除指示（採取地点記録ではない）",
+      "coordinate_role": "municipality_center_representative_not_collection_site",
+      "edibility_review": "出荷制限の解除は野生のナラタケ類の安全な食用同定ではない。毒菌との混同や加熱等を注意。",
+      "sources": [
+        [
+          "厚生労働省・2026-11-12出荷制限解除",
+          "https://www.mhlw.go.jp/stf/newpage_77110.html"
+        ],
+        [
+          "福島県・2026-11-18時点の検査・制限掲載",
+          "https://www.pref.fukushima.lg.jp/site/portal/mon-kekka.html"
+        ],
+        [
+          "市町の代表点根拠",
+          "https://geoshape.ex.nii.ac.jp/ka/resource/07/07447001007.html"
+        ]
+      ],
+      "months_basis": "行政の出荷制限解除指示月であり、発生月・採取季節ではない。",
+      "radiation": {
+        "authority": "原子力災害対策本部（厚生労働省公表）",
+        "source_updated_at": "2026-11-12",
+        "shipping_restriction_lifted": true,
+        "lifted_taxa": [
+          "野生ナラタケ"
+        ],
+        "other_species_not_cleared_by_this_notice": true,
+        "individual_safety_guaranteed": false
+      }
+    }
+  ]
+}
