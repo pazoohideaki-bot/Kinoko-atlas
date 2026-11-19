@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-19",
+  "scope": "2026-11-19 first city-designated public foraging forest discovered. Official rules allow mushroom collection within open season, though residency eligibility and exact location coordinates remain to be separately verified. Historical fungal photos and habitat kept distinct.",
+  "places": [
+    {
+      "id": "chino_yoshidayama_shiminnomori_public_foraging_2026",
+      "name": "茅野市・市民の森（吉田山）【市がきのこ採り明示】",
+      "pref": "長野県 茅野市米沢2678-10（吉田山周辺）",
+      "lat": 35.995528,
+      "lng": 138.158806,
+      "status": "green",
+      "statusLabel": "市が山菜・きのこ採りを明示／4月1日〜11月14日のみ開山（現在閉山）",
+      "precision": "このピンは茅野市街地の代表点（市役所）であり市民の森の実位置・入山ゲート・採取地点ではない。公式の市民の森マップと現地所在地「長野県茅野市米沢2678-10」を必ず参照。",
+      "score": 95,
+      "fungi": [
+        "きのこ類（市が一般の採集利用を案内。種・量・発生状況はその都度異なる）",
+        "ハナビラタケ（歴史的観察写真）",
+        "タマゴタケ（歴史的観察写真）",
+        "ツチグリ（歴史的観察写真）",
+        "カワラタケ（歴史的観察写真）",
+        "スエヒロタケ（歴史的観察写真）",
+        "ホコリタケ（歴史的観察写真）"
+      ],
+      "tags": [
+        "mountain",
+        "collect",
+        "official_access",
+        "confirmed_green"
+      ],
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "fee": "市が入山・きのこ採りを案内。料金・鑑札・個人のガイド同行必須の記載なし。市外居住者の条件や個別数量上限を明示した資料は未確認（訪問前に市環境課へ照会）",
+      "legal": "【2026-11-19時点では閉山】市公式の開山期間は毎年4月1日〜11月14日。茅野市が設置した約200haの「市民の森」で山菜・きのこ採りを明示し、利用ガイドラインも採取時のマナーを規定している。開山期間内・市民の森エリア内のみ。個人の少量自家消費用途に限って参考とする。現地に接する民有地や管理区域に拡張解釈しない。市外居住者への明文の承認、採取量の上限・販売目的の扱いは未確認。利用開始前に市環境課へ確認。団体・イベント利用は事前連絡。市民の池内への立入り、山菜・きのこ以外の植物採取、樹木伐採・搬出、土石採取、火気・キャンプは禁止。車両乗り入れは指定山頂コースのみ。",
+      "note": "茅野市2026-07-24更新の公式ページと2026-02-03施行の利用ガイドラインが、きのこ採りを施設利用として明示。公式地図にはヒノキ林、リョウブ林、コナラ林、クリ・ホオノキ・ウダイカンバ等が記載され、吉田山山頂1146.4m、横河口約960m、入口・駐車場付近約1016mなどを表示（地点別標高でありキノコの発生標高ではない）。八ヶ岳森林文化の会のガイドブック53頁にはハナビラタケ・ツチグリ・カワラタケ・スエヒロタケ・タマゴタケ・ホコリタケの現地写真が掲載されるが、撮影月日・詳しい生育木・種のDNA同定は未掲載。ガイドブックは2011年11月までの観察植物等を扱い、個々の菌類の実際の撮影・発生年は断定できない。植生と菌種の近接は種別の寄主の直接確認を意味しない。町外在住者の資格不明ゆえ無条件の全国一般開放と断定しない。市環境課0266-72-2101（内線263）。",
+      "record_dates": [
+        "2026-02-03",
+        "2026-07-24"
+      ],
+      "record_date_basis": "ガイドライン施行日／自治体案内更新日。種別現地観察日は写真から不明。2011年11月までの森の観察ガイドブックに6種の写真があるが撮影日は未確認。",
+      "record_kind": "自治体管理林の公式なキノコ採り利用規定＋自然保全団体の歴史的菌類写真",
+      "coordinate_role": "chino_city_hall_reference_not_yoshidayama_or_fungus_site",
+      "edibility_review": "キノコ写真の種名は現物の同定ではない。タマゴタケは毒テングタケ属等との誤認に注意。スエヒロタケは病原性・食用可否に特別な注意が必要で、写真記録の種をすべて食用とするものではない。現物を自己判断で食べない。",
+      "sources": [
+        [
+          "茅野市・市民の森の利用と採取案内（2026-07-24）",
+          "https://www.city.chino.lg.jp/soshiki/kankyo/222.html"
+        ],
+        [
+          "茅野市・市民の森ガイドライン（2026-02-03施行）",
+          "https://www.city.chino.lg.jp/uploaded/attachment/40864.pdf"
+        ],
+        [
+          "茅野市・市民の森公式区画・植生マップ",
+          "https://www.city.chino.lg.jp/uploaded/attachment/18174.pdf"
+        ],
+        [
+          "八ヶ岳森林文化の会・同森林で撮影したキノコ6種（ガイドブック2011年頃までの記録）",
+          "https://8moribunka.org/wp-content/uploads/2024/08/1-053_ikimono_syokubutsu53.pdf"
+        ],
+        [
+          "茅野市・市民の森の住所・アクセス",
+          "https://www.city.chino.lg.jp/site/chinomiryoku/miryoku3.html"
+        ],
+        [
+          "長野県・野生きのこ出荷制限対象一覧（2026-10-15）",
+          "https://www.pref.nagano.lg.jp/ringyo/kurashi/shobo/genshiryoku/hoshasen/hoshase/kennaisankinoko.html"
+        ],
+        [
+          "市域代表座標（茅野市役所、現地ではない）",
+          "https://en.wikipedia.org/wiki/Chino%2C_Nagano"
+        ]
+      ],
+      "months_basis": "4〜11月は開山期間（11月は14日まで）を示すフィルター用であり、個々の種の発生月・現在の採取適期を意味しない。",
+      "habitat": {
+        "municipal_area_ha": 200,
+        "altitude_m_examples": [
+          960,
+          1016,
+          1146.4
+        ],
+        "trees_reported": [
+          "ヒノキ林",
+          "リョウブ林",
+          "コナラ林",
+          "クリ",
+          "ホオノキ",
+          "ウダイカンバ",
+          "カツラ",
+          "サワフタギ"
+        ],
+        "habitat_source": "https://www.city.chino.lg.jp/uploaded/attachment/18174.pdf",
+        "not_linked_to_individual_fungi": true
+      },
+      "access": {
+        "open_period": "毎年4月1日〜11月14日",
+        "current_date": "2026-11-19",
+        "currently_in_open_period": false,
+        "city_resident_only_rule_found": false,
+        "nonresident_eligibility_confirmed": false,
+        "personal_ticket_requirement_published": false,
+        "public_entry_officially_described": true,
+        "formal_guideline_effective": "2026-02-03",
+        "information_checked_at": "2026-11-19"
+      },
+      "radiation": {
+        "authority": "長野県",
+        "source_updated_at": "2026-10-15",
+        "listed_as_restricted_municipality": false,
+        "individual_safety_guaranteed": false,
+        "untested_specimen_safety_unknown": true,
+        "restriction_source": "https://www.pref.nagano.lg.jp/ringyo/kurashi/shobo/genshiryoku/hoshasen/hoshase/kennaisankinoko.html"
+      }
+    }
+  ]
+}
