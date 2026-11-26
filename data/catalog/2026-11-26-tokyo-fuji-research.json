@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-26",
+  "scope": "東京23区・富士北麓の研究標本と植生別歴史記録。採取可能地点ではない。",
+  "places": [
+    {
+      "id": "tokyo_fukiage_fungi_2021_2022",
+      "name": "皇居吹上御苑・研究標本記録【一般採取不可・区代表点】",
+      "pref": "東京都 千代田区",
+      "lat": 35.694003,
+      "lng": 139.753634,
+      "status": "blue",
+      "statusLabel": "研究標本記録のみ／一般採取権なし・見学は指定行事",
+      "precision": "千代田区役所の区代表点。吹上御苑の入口や発生地点ではない。詳細発生位置は論文未公表。",
+      "score": 65,
+      "fungi": [
+        "シイタケ",
+        "ヒラタケ",
+        "エノキタケ",
+        "ナラタケ",
+        "アラゲキクラゲ（論文の暫定学名）"
+      ],
+      "tags": [
+        "urban",
+        "occurrence"
+      ],
+      "months": [
+        10,
+        11
+      ],
+      "fee": "一般採取用の券・料金・申請制度は未確認。自然観察会は別制度（2026年度終了）。",
+      "legal": "宮内庁管理の吹上御苑で、一般公開の採取地ではない。自然観察会は事前公募で指定日に行われるが、採取許可ではない。採取・自由立入目的の訪問は不可。研究標本の採集と一般の持ち帰り権は別。",
+      "note": "国立科学博物館専報53号（2026年3月28日）の2021–22年調査。42分類群（未同定を含む）、17分類群が同苑初記録。選択した5種の標本：シイタケ＝2021-11-10 TNS F-110480、2022-11-22 F-110493；ヒラタケ＝2021-11-10 F-110473、2022-11-22 F-110488；エノキタケ＝2021-10-27 F-110459、11-10 F-110470；ナラタケ＝2021-11-10 F-110468；アラゲキクラゲ＝2021-10-27 F-110452、2022-11-22 F-110486（A. cornea は便宜的採用、DNAを含む再検討が必要）。宮内庁によればシイ・カシ・クヌギ林等、倒木材を残す管理。個別発生木・標高は未公表。カエンタケ（2022-11-22）も同苑で確認されているため、食用同定や採取案内に転用しない。",
+      "record_dates": [
+        "2021-10-27",
+        "2021-11-10",
+        "2022-11-22"
+      ],
+      "record_date_basis": "標本採集日。論文公表2026-03-28、確認2026-11-26。10・11月は採集記録月で発生期全体ではない。",
+      "record_kind": "研究論文の標本記録",
+      "coordinate_role": "chiyoda_ward_office_representative_not_fukiage_or_fungus_site",
+      "edibility_review": "種名は現物の同定・可食判定の保証ではない。毒菌も確認されている。採取・摂取しない。",
+      "habitat": {
+        "trees_reported": [
+          "シイ",
+          "カシ",
+          "クヌギ"
+        ],
+        "decaying_wood_retained": true,
+        "individual_substrate_confirmed": false,
+        "altitude_m": null
+      },
+      "observations": [
+        {
+          "taxon_as_reported": "シイタケ",
+          "scientific_name_as_reported": "Lentinula edodes",
+          "specimens": [
+            [
+              "2021-11-10",
+              "TNS F-110480"
+            ],
+            [
+              "2022-11-22",
+              "TNS F-110493"
+            ]
+          ]
+        },
+        {
+          "taxon_as_reported": "ヒラタケ",
+          "scientific_name_as_reported": "Pleurotus ostreatus",
+          "specimens": [
+            [
+              "2021-11-10",
+              "TNS F-110473"
+            ],
+            [
+              "2022-11-22",
+              "TNS F-110488"
+            ]
+          ]
+        },
+        {
+          "taxon_as_reported": "エノキタケ",
+          "scientific_name_as_reported": "Flammulina filiformis",
+          "specimens": [
+            [
+              "2021-10-27",
+              "TNS F-110459"
+            ],
+            [
+              "2021-11-10",
+              "TNS F-110470"
+            ]
+          ]
+        },
+        {
+          "taxon_as_reported": "ナラタケ",
+          "scientific_name_as_reported": "Armillaria mellea",
+          "specimens": [
+            [
+              "2021-11-10",
+              "TNS F-110468"
+            ]
+          ]
+        },
+        {
+          "taxon_as_reported": "アラゲキクラゲ",
+          "scientific_name_as_reported": "Auricularia cornea",
+          "identification_caveat": "暫定学名。DNA等の追加検討が必要",
+          "specimens": [
+            [
+              "2021-10-27",
+              "TNS F-110452"
+            ],
+            [
+              "2022-11-22",
+              "TNS F-110486"
+            ]
+          ]
+        }
+      ],
+      "identification": {
+        "voucher_repository": "国立科学博物館 TNS",
+        "dna_tissue_preserved": true,
+        "individual_dna_identification_confirmed": false
+      },
+      "radiation": {
+        "specimen_test_results": "未確認",
+        "individual_safety_guaranteed": false
+      },
+      "sources": [
+        [
+          "国立科学博物館専報53号 107–112頁（2026-03-28）",
+          "https://www.kahaku.go.jp/albums/abm.php?d=8041&f=abm00020719.pdf&n=memoir53_107.pdf"
+        ],
+        [
+          "宮内庁・吹上御苑自然観察会と植生（2026年度）",
+          "https://www.kunaicho.go.jp/visit/event/kansatsukai/index.html"
+        ],
+        [
+          "千代田区代表座標（区役所）",
+          "https://geoshape.ex.nii.ac.jp/city/resource/13101A1968.html"
+        ]
+      ]
+    },
+    {
+      "id": "fuji_north_vegetation_fungi_survey_2001_2002",
+      "name": "富士北麓・森林タイプ別きのこ調査【広域研究記録】",
+      "pref": "山梨県 富士山北麓（複数市町村）",
+      "lat": 35.486,
+      "lng": 138.809,
+      "status": "blue",
+      "statusLabel": "研究記録／採取権未確認・3市町村採取摂取自粛",
+      "precision": "既存の富士吉田市域代表点を広域資料の索引として使用。調査区・採取地点・入口ではない。原報告の共通調査区は地図に非掲載。",
+      "score": 60,
+      "fungi": [
+        "ハナイグチ",
+        "シロヌメリイグチ",
+        "カラマツシメジ",
+        "ナラタケ",
+        "アンズタケ",
+        "クロラッパタケ",
+        "カノシタ",
+        "タマゴタケ",
+        "マスタケ",
+        "キクラゲ",
+        "ムキタケ",
+        "シロカノシタ",
+        "サンゴハリタケモドキ",
+        "ブナハリタケ",
+        "シモフリシメジ",
+        "シロシメジ",
+        "アミタケ",
+        "ヌメリイグチ",
+        "ショウゲンジ",
+        "ヒラタケ（広域のみ）",
+        "エノキタケ（広域のみ）",
+        "ヤマドリタケモドキ（広域のみ）",
+        "マツタケ（広域のみ）"
+      ],
+      "tags": [
+        "fuji",
+        "mountain",
+        "occurrence"
+      ],
+      "months": [
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "fee": "各林班・土地の採取権・鑑札・料金・量・同行条件は未確認。",
+      "legal": "歴史的な調査記録で、立入・採取許可ではない。自然公園の区域別規制と土地管理者の権利を別々に確認する必要がある。山梨県の富士吉田市・富士河口湖町・鳴沢村の野生きのこは出荷制限、採取・摂取自粛の対象。採取目的の案内には使用しない。",
+      "note": "環境省生物多様性センターの2003年3月報告書、柴田尚『大型菌類（きのこ）』pp.29–37。2001–02年の調査で339種・2変種・2品種（未同定種含む）を記録。表1の共通調査区別確認例：St.2 カラマツ自然林＝ハナイグチ、シロヌメリイグチ、カラマツシメジ、ナラタケ。St.3 シラビソ自然林＝アンズタケ、クロラッパタケ、カノシタ、ナラタケ、タマゴタケ、マスタケ。St.4 ブナ等の夏緑広葉樹林＝キクラゲ、ムキタケ、タマゴタケ、シロカノシタ、サンゴハリタケモドキ、ブナハリタケ。St.6 アカマツ自然林＝シモフリシメジ、シロシメジ、ナラタケ、アミタケ、ヌメリイグチ、ショウゲンジ。ヒラタケ、エノキタケ、ヤマドリタケモドキ、マツタケは広域目録のみ（区別の丸印なし）。個別種の採集日・標高・座標は不明。古い分類の和名をそのまま記録し現行学名を推定しない。ドクツルタケやツキヨタケも同調査で確認。現物の食用判定不可。",
+      "record_dates": [
+        "2001",
+        "2002"
+      ],
+      "record_date_basis": "野外調査年。報告書は2003-03、確認2026-11-26。調査日一覧は2001年7〜10月・2002年4月および6〜10月（本文の調査方法には6〜11月と記載）。monthsは日付一覧の調査月で種別発生期ではない。",
+      "record_kind": "環境省委託の野外調査・乾燥標本を伴う歴史的発生記録",
+      "coordinate_role": "fuji_yoshida_city_representative_regional_index_not_survey_site",
+      "habitat": {
+        "region_altitude_range_m": [
+          920,
+          3776
+        ],
+        "altitude_basis": "全調査地域の範囲であり個々の菌類・林分の発生標高ではない",
+        "common_stations": [
+          {
+            "station": "St.2",
+            "vegetation": "亜高山カラマツ自然林",
+            "reported_taxa": [
+              "ハナイグチ",
+              "シロヌメリイグチ",
+              "カラマツシメジ",
+              "ナラタケ"
+            ]
+          },
+          {
+            "station": "St.3",
+            "vegetation": "亜高山シラビソ自然林",
+            "reported_taxa": [
+              "アンズタケ",
+              "クロラッパタケ",
+              "カノシタ",
+              "ナラタケ",
+              "タマゴタケ",
+              "マスタケ"
+            ]
+          },
+          {
+            "station": "St.4",
+            "vegetation": "山地帯夏緑広葉樹林（ブナ等）",
+            "reported_taxa": [
+              "キクラゲ",
+              "ムキタケ",
+              "タマゴタケ",
+              "シロカノシタ",
+              "サンゴハリタケモドキ",
+              "ブナハリタケ"
+            ]
+          },
+          {
+            "station": "St.6",
+            "vegetation": "溶岩帯アカマツ自然林",
+            "reported_taxa": [
+              "シモフリシメジ",
+              "シロシメジ",
+              "ナラタケ",
+              "アミタケ",
+              "ヌメリイグチ",
+              "ショウゲンジ"
+            ]
+          }
+        ],
+        "coordinates_published": false,
+        "individual_host_confirmed": false
+      },
+      "identification": {
+        "voucher_repository_as_reported": "山梨県森林総合研究所（報告書記載）",
+        "specimen_numbers_confirmed": false,
+        "dna_identification_confirmed": false
+      },
+      "edibility_review": "当時の名称・林分情報は現物の同定や可食保証ではない。有毒種も記録されている。専門家による現物確認なしに食べない。自粛区域では採取・摂取しない。",
+      "radiation": {
+        "authority": "山梨県",
+        "source_updated_at": "2025-10-28",
+        "checked_at": "2026-11-26",
+        "collection_and_consumption_advisory": true,
+        "shipping_restriction": true,
+        "scope": "富士吉田市・富士河口湖町・鳴沢村。調査全地域に一律適用とはしない",
+        "specimen_test_results": "歴史的標本の検査未確認",
+        "individual_safety_guaranteed": false
+      },
+      "sources": [
+        [
+          "環境省・富士北麓生態系多様性地域調査 大型菌類 pp.29–37",
+          "https://www.biodic.go.jp/reports2/parts/6th/6_fujihoku/6_fujihoku_15.pdf"
+        ],
+        [
+          "同報告書・調査地点表4と図3（共通地点は非掲載）",
+          "https://www.biodic.go.jp/reports2/parts/6th/6_fujihoku/6_fujihoku_10.pdf"
+        ],
+        [
+          "同報告書奥付（2003年3月）",
+          "https://www.biodic.go.jp/reports2/parts/6th/6_fujihoku/6_fujihoku_49.pdf"
+        ],
+        [
+          "山梨県・採取・出荷・摂取自粛（2025-10-28）",
+          "https://www.pref.yamanashi.jp/release/ringyo/0710/houshaseibusshitukensa.html"
+        ],
+        [
+          "山梨県・2026年度検査結果",
+          "https://www.pref.yamanashi.jp/ringyo/fukyu/housyaseikennsakekka/r8tokuyourinsankensakekka.html"
+        ]
+      ]
+    }
+  ]
+}
