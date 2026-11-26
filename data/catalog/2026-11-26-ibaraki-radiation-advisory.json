@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-26",
+  "scope": "重要な放射性物質情報",
+  "places": [
+    {
+      "id": "hitachiomiya_koutake_shipping_advisory_20261030",
+      "name": "常陸大宮市・コウタケ基準値超過／全野生きのこ出荷自粛【市域】",
+      "pref": "茨城県 常陸大宮市（検体採取大字：小舟）",
+      "lat": 36.542592,
+      "lng": 140.411012,
+      "status": "blue",
+      "statusLabel": "検査記録・県の出荷自粛要請／採取権未確認",
+      "precision": "市役所の代表点。公表採取地は大字小舟までで、採取地点・林班・発生木ではない。",
+      "score": 55,
+      "fungi": [
+        "コウタケ",
+        "野生きのこ全般（出荷自粛対象）"
+      ],
+      "tags": [
+        "occurrence",
+        "mountain"
+      ],
+      "months": [
+        10
+      ],
+      "fee": "採取権・入山券・料金・区域・量・同行条件は未確認。",
+      "legal": "2026-10-30付で茨城県が常陸大宮市の全野生きのこの出荷自粛を要請。国の出荷制限指示とは別。市の案内は出荷・販売自粛であり、個人の採取・摂取に関する法的禁止と同一視しない。土地所有者の許可等は未確認。採取・摂取を推奨しない。",
+      "note": "県の2026-10-30報道資料参考1：常陸大宮市（小舟）で2026-10-20採取のコウタケを厚労省が10-26買上検査、放射性セシウム合計170 Bq/kg（一般食品基準100 Bq/kg超過）。県は種を限定せず全野生きのこを対象に出荷自粛を要請した。林野庁10-30更新資料と市公式告知を2026-11-26確認。個別の林・植生・標高・標本番号・DNA同定・核種別値は未確認。検体結果を地域全個体の値としない。",
+      "record_dates": [
+        "2026-10-20",
+        "2026-10-26",
+        "2026-10-30"
+      ],
+      "record_date_basis": "採取日、検査日、県要請・報道発表日。10月は確認月で種の発生期全体ではない。確認日2026-11-26。",
+      "record_kind": "県公表の野生きのこ検査・出荷自粛要請",
+      "coordinate_role": "municipality_office_representative_not_collection_site",
+      "edibility_review": "基準値超過検体。現物同定や他個体の安全を保証しない。採取・食用を勧めない。",
+      "radiation": {
+        "authority": "茨城県",
+        "source_updated_at": "2026-10-30",
+        "checked_at": "2026-11-26",
+        "prefectural_shipping_advisory": true,
+        "national_shipping_restriction_confirmed": false,
+        "collection_and_consumption_advisory": null,
+        "scope": "常陸大宮市の全野生きのこ類",
+        "sample_cs_total_bq_kg": 170,
+        "individual_safety_guaranteed": false
+      },
+      "observations": [
+        {
+          "taxon_as_reported": "コウタケ",
+          "locality_as_reported": "常陸大宮市 小舟",
+          "sample_collected_on": "2026-10-20",
+          "test_date": "2026-10-26",
+          "cs_total_bq_kg_as_reported": "170"
+        }
+      ],
+      "sources": [
+        [
+          "茨城県10月30日報道資料（参考1に採取大字・日付）",
+          "https://www.pref.ibaraki.jp/somu/hodo/hodo/pressrelease/hodohappyoushiryou/2203/documents/261030rinsei.pdf"
+        ],
+        [
+          "常陸大宮市公式出荷自粛案内",
+          "https://www.city.hitachiomiya.lg.jp/kurashi_gyousei/business/nouti/houshasen/page012448.html"
+        ],
+        [
+          "林野庁・茨城県出荷制限等（2026-10-30更新）",
+          "https://www.rinya.maff.go.jp/j/tokuyou/kinoko/qa/seigenibaraki.html"
+        ],
+        [
+          "常陸大宮市役所代表点",
+          "https://geoshape.ex.nii.ac.jp/city/resource/08225A2004.html"
+        ]
+      ]
+    }
+  ]
+}
